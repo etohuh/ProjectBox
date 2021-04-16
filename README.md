@@ -1,2 +1,2 @@
 # ProjectBox
-repo for MAPP - group 11 - Boxxie
+Group 11 - MAPP - Boxxie
