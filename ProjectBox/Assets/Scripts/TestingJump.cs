@@ -9,6 +9,7 @@ public class TestingJump : MonoBehaviour
     Vector3 dragPoint;
     public Rigidbody2D rb;
     public float launchForce;
+    private bool isGrounded = false; 
 
     void Start()
     {
@@ -31,11 +32,31 @@ public class TestingJump : MonoBehaviour
         if (Input.GetMouseButtonUp(0)) {
             distanceVector = dragPoint - mainCamera.ScreenToWorldPoint(Input.mousePosition);
             launchForce = distanceVector.magnitude;
-            rb.AddForce(distanceVector*10, ForceMode2D.Impulse);
+            if(isGrounded == true)
+            {
+                rb.AddForce(distanceVector * 10, ForceMode2D.Impulse);
+            }
+            
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("ground"))
+        {
+            isGrounded = true;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("ground"))
+        {
+            isGrounded = false;
         }
     }
 
     private void FixedUpdate() {
-        rb.AddForce(new Vector3(-9.8f, 0 ,0) * rb.mass);
+        rb.AddForce(new Vector3(0, -9.8f ,0) * rb.mass);
     }
 }
