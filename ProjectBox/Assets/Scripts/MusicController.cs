@@ -16,9 +16,16 @@ public class MusicController : MonoBehaviour
     [SerializeField] private AudioClip gravity3;
     [SerializeField] private AudioClip jumpSound;
 
+    [SerializeField] private AudioClip laser1;
+    [SerializeField] private AudioClip laser2;
+    [SerializeField] private AudioClip laser3;
+    [SerializeField] private AudioClip laser4;
+    [SerializeField] private AudioClip laser5; 
+    [SerializeField] private AudioClip laserBuzzing;
+
     [SerializeField] private AudioSource audioSource;
 
-    private bool firstTrack = true;
+    private bool firstTrack = false;
     private bool secondTrack = false;
     private bool deathTrack = false;
 
@@ -29,12 +36,13 @@ public class MusicController : MonoBehaviour
     private bool gravity3Track = false;
     private bool jumpSoundTrack = false;
 
+    private bool laser1Track = false;
+    private bool laser2Track = false;
+    private bool laser3Track = false;
+    private bool laser4Track = false;
+    private bool laser5Track = false;
+    private bool laserBuzzingTrack = false;
 
-    private void Start()
-    {
-        audioSource.clip = vaporWave1;
-
-    }
     // Update is called once per frame
     void Update()
     {
@@ -102,6 +110,49 @@ public class MusicController : MonoBehaviour
             jumpSoundTrack = false;
         }
 
+        else if (laser1Track == true)
+        {
+            audioSource.clip = laser1;
+            audioSource.loop = false;
+            audioSource.Play();
+            laser1Track = false;
+        }
+        else if (laser2Track == true)
+        {
+            audioSource.clip = laser2;
+            audioSource.loop = false;
+            audioSource.Play();
+            laser2Track = false;
+        }
+        else if (laser3Track == true)
+        {
+            audioSource.clip = laser3;
+            audioSource.loop = false;
+            audioSource.Play();
+            laser3Track = false;
+        }
+        else if (laser4Track == true)
+        {
+            audioSource.clip = laser4;
+            audioSource.loop = false;
+            audioSource.Play();
+            laser4Track = false;
+        }
+        else if (laser5Track == true)
+        {
+            audioSource.clip = laser5;
+            audioSource.loop = false;
+            audioSource.Play();
+            laser5Track = false;
+        }
+        else if (laserBuzzingTrack == true)
+        {
+            audioSource.clip = laserBuzzing;
+            audioSource.loop = false;
+            audioSource.Play();
+            laserBuzzingTrack = false;
+        }
+
     }
 
     public void ChangeClipWithButoon1()
@@ -140,5 +191,30 @@ public class MusicController : MonoBehaviour
     public void ChangeClipWithButton9()
     {
         jumpSoundTrack = true;
+    }
+
+    public void ChangeClipWithButton10()
+    {
+        laser1Track = true;
+    }
+    public void ChangeClipWithButton11()
+    {
+        laser2Track = true;
+    }
+    public void ChangeClipWithButton12()
+    {
+        laser3Track = true;
+    }
+    public void ChangeClipWithButton13()
+    {
+        laser4Track = true;
+    }
+    public void ChangeClipWithButton14()
+    {
+        laser5Track = true;
+    }
+    public void ChangeClipWithButton15()
+    {
+        laserBuzzingTrack = true;
     }
 }
