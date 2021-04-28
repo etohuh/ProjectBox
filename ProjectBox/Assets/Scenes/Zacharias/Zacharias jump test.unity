@@ -1486,7 +1486,7 @@ GameObject:
   - component: {fileID: 2024042295}
   m_Layer: 0
   m_Name: Tilemap
-  m_TagString: ground
+  m_TagString: GroundDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
