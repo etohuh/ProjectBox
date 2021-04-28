@@ -14,6 +14,7 @@ public class boxxieJump : MonoBehaviour
     private SpringJoint2D sj;
     private LineRenderer lr;
     private TrailRenderer tr;
+    
 
 
     private void Awake()
