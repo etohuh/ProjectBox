@@ -20,7 +20,8 @@ public class MusicController : MonoBehaviour
     [SerializeField] private AudioClip laser2;
     [SerializeField] private AudioClip laser3;
     [SerializeField] private AudioClip laser4;
-    [SerializeField] private AudioClip laser5; 
+    [SerializeField] private AudioClip laser5;
+    [SerializeField] private AudioClip laser6;
     [SerializeField] private AudioClip laserBuzzing;
 
     [SerializeField] private AudioSource audioSource;
@@ -41,6 +42,7 @@ public class MusicController : MonoBehaviour
     private bool laser3Track = false;
     private bool laser4Track = false;
     private bool laser5Track = false;
+    private bool laser6Track = false;
     private bool laserBuzzingTrack = false;
 
     // Update is called once per frame
@@ -152,7 +154,13 @@ public class MusicController : MonoBehaviour
             audioSource.Play();
             laserBuzzingTrack = false;
         }
-
+        else if (laser6Track == true)
+        {
+            audioSource.clip = laser6;
+            audioSource.loop = false;
+            audioSource.Play();
+            laser6Track = false;
+        }
     }
 
     public void ChangeClipWithButoon1()
@@ -216,5 +224,9 @@ public class MusicController : MonoBehaviour
     public void ChangeClipWithButton15()
     {
         laserBuzzingTrack = true;
+    }
+    public void ChangeClipWithButton16()
+    {
+        laser6Track = true;
     }
 }
