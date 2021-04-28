@@ -371,7 +371,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 651464779}
-  gravityVector: {x: 0, y: 0, z: 0}
   rb: {fileID: 191366774}
   launchForce: 0
 --- !u!114 &191366777
