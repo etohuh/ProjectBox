@@ -1,7 +1,13 @@
 fileFormatVersion: 2
 guid: 8c22633b39dd9da4c879796ea6f044f4
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4991534448646360980
+    second: SpelFyrkantNormal
+  - first:
+      213: 8667781039854792003
+    second: SpelFyrkantWobbly
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +47,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -149,7 +155,49 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SpelFyrkantNormal
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 19
+        width: 514
+        height: 524
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60fe408dd18abab0800000000000000
+      internalID: -4991534448646360980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpelFyrkantWobbly
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 19
+        width: 557
+        height: 524
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d296f8ee42a4870800000000000000
+      internalID: 8667781039854792003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
