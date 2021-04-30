@@ -29,6 +29,24 @@ TextureImporter:
   - first:
       213: -5764144178303440894
     second: SamlingSpriteMap_8
+  - first:
+      213: 8252897458400963014
+    second: SamlingSpriteMap_9
+  - first:
+      213: -8698913930464449048
+    second: SamlingSpriteMap_10
+  - first:
+      213: -4629669864933796164
+    second: SamlingSpriteMap_11
+  - first:
+      213: -3684520990532952701
+    second: SamlingSpriteMap_12
+  - first:
+      213: 7479619318607946456
+    second: SamlingSpriteMap_13
+  - first:
+      213: -8644817370854017793
+    second: SamlingSpriteMap_14
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -92,7 +110,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -104,7 +122,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -116,7 +134,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -128,7 +146,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: tvOS
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -140,7 +158,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -152,7 +170,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -164,7 +182,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -244,8 +262,8 @@ TextureImporter:
       name: SamlingSpriteMap_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 512
+        x: 1536
+        y: 1024
         width: 512
         height: 512
       alignment: 0
@@ -265,8 +283,8 @@ TextureImporter:
       name: SamlingSpriteMap_4
       rect:
         serializedVersion: 2
-        x: 512
-        y: 512
+        x: 2048
+        y: 1024
         width: 512
         height: 512
       alignment: 0
@@ -286,7 +304,7 @@ TextureImporter:
       name: SamlingSpriteMap_5
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 0
         y: 512
         width: 512
         height: 512
@@ -307,8 +325,8 @@ TextureImporter:
       name: SamlingSpriteMap_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 512
+        y: 512
         width: 512
         height: 512
       alignment: 0
@@ -328,8 +346,8 @@ TextureImporter:
       name: SamlingSpriteMap_7
       rect:
         serializedVersion: 2
-        x: 512
-        y: 0
+        x: 1024
+        y: 512
         width: 512
         height: 512
       alignment: 0
@@ -349,8 +367,8 @@ TextureImporter:
       name: SamlingSpriteMap_8
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 0
+        x: 1536
+        y: 512
         width: 512
         height: 512
       alignment: 0
@@ -362,6 +380,132 @@ TextureImporter:
       bones: []
       spriteID: 208661ad865a100b0800000000000000
       internalID: -5764144178303440894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamlingSpriteMap_9
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9a6bf338e288270800000000000000
+      internalID: 8252897458400963014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamlingSpriteMap_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed28fa7edf374780800000000000000
+      internalID: -8698913930464449048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamlingSpriteMap_11
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb65a4179cb10cfb0800000000000000
+      internalID: -4629669864933796164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamlingSpriteMap_12
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d10d73ea3fddcc0800000000000000
+      internalID: -3684520990532952701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamlingSpriteMap_13
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2a6cc3422fcc760800000000000000
+      internalID: 7479619318607946456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamlingSpriteMap_14
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4be164760770880800000000000000
+      internalID: -8644817370854017793
       vertices: []
       indices: 
       edges: []
