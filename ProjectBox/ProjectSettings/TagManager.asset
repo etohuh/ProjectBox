@@ -9,6 +9,7 @@ TagManager:
   - GroundDown
   - GroundLeft
   - GroundRight
+  - Shot
   layers:
   - Default
   - TransparentFX
