@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovingPlatform : MonoBehaviour
+public class MovingObject : MonoBehaviour
 {
     public GameObject point1;
     public GameObject point2;
