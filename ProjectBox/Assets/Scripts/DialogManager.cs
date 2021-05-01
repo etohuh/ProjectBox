@@ -1,14 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DialogManager : MonoBehaviour
 {
+    public TextMeshProUGUI nameText;
+    public TextMeshProUGUI dialogText;
 
-    public GameObject[] speakers;
+    public GameObject nextButton;
 
     private Queue<string> sentences;
-    public Camera dialogCamera;
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +26,8 @@ public class DialogManager : MonoBehaviour
     }
 
     public void StartDialog(Dialog dialog) {
-        Debug.Log("Starting conversation with " + dialog.name);
+
+        nameText.text = dialog.name;
 
         sentences.Clear();
 
@@ -42,10 +46,19 @@ public class DialogManager : MonoBehaviour
         }
 
         string sentence = sentences.Dequeue();
-        Debug.Log(sentence);
+        StopAllCoroutines();
+        StartCoroutine(TypeSentence(sentence));
+    }
+
+    IEnumerator TypeSentence (string sentence) {
+        dialogText.text = "";
+        foreach (char letter in sentence.ToCharArray()) {
+            dialogText.text += letter;
+            yield return null;
+        }
     }
 
     public void EndDialog() {
-        Debug.Log("End of conversation");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!4 &191366773 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6874491714008146663, guid: 3034ac2685138cd4487bc8586e2a9c09, type: 3}
-  m_PrefabInstance: {fileID: 6874491714191123602}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &342727492
 GameObject:
   m_ObjectHideFlags: 0
@@ -344,7 +339,7 @@ Transform:
   - {fileID: 1247171833}
   - {fileID: 1077429206}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &814278183
 GameObject:
@@ -10842,6 +10837,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1882726122 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6913275768407180874, guid: 3034ac2685138cd4487bc8586e2a9c09, type: 3}
+  m_PrefabInstance: {fileID: 6874491714191123602}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1903532752
 GameObject:
   m_ObjectHideFlags: 0
@@ -11127,6 +11127,14 @@ PrefabInstance:
       propertyPath: m_PointLightOuterRadius
       value: 3.19
       objectReference: {fileID: 0}
+    - target: {fileID: 6913275767946567750, guid: 3034ac2685138cd4487bc8586e2a9c09, type: 3}
+      propertyPath: mainCamera
+      value: 
+      objectReference: {fileID: 651464779}
+    - target: {fileID: 6913275767946567751, guid: 3034ac2685138cd4487bc8586e2a9c09, type: 3}
+      propertyPath: startingPos
+      value: 
+      objectReference: {fileID: 2010626202}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3034ac2685138cd4487bc8586e2a9c09, type: 3}
 --- !u!1001 &8700604013389901122
@@ -11337,7 +11345,7 @@ PrefabInstance:
     - target: {fileID: 8787794566373516866, guid: 276bb2fa3d872b6418609de58977eb0b, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 191366773}
+      objectReference: {fileID: 1882726122}
     - target: {fileID: 8787794566373516869, guid: 276bb2fa3d872b6418609de58977eb0b, type: 3}
       propertyPath: m_Name
       value: Main Camera

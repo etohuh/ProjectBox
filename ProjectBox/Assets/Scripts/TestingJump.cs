@@ -23,12 +23,12 @@ public class TestingJump : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetMouseButtonDown(0)) {
+        if (Input.GetButtonDown("Fire1")) {
             if(isGrounded)
                 dragPoint = mainCamera.ScreenToWorldPoint(Input.mousePosition);
         }
 
-        if (Input.GetMouseButton(0)) {
+        if (Input.GetButton("Fire1")) {
             if (isGrounded) {
                 distanceVector = dragPoint - mainCamera.ScreenToWorldPoint(Input.mousePosition);
                 tLine.DrawLine(transform, distanceVector);
@@ -37,7 +37,7 @@ public class TestingJump : MonoBehaviour
             
         }
 
-        if (Input.GetMouseButtonUp(0)) {
+        if (Input.GetButtonUp("Fire1")) {
             
             tLine.DisableLine();
             if(isGrounded == true)

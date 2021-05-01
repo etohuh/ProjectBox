@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class GravityController : MonoBehaviour
 {
-    private float gravityconst = 20f;
+    public float gravityconst = 15f;
+
+
+    public GameObject gObject;
 
     public Vector3 gravityVector;
     public Rigidbody2D rb;
@@ -19,6 +22,7 @@ public class GravityController : MonoBehaviour
     void Start()
     {
         gravityVector = new Vector3(0, -gravityconst, 0);
+
     }
 
 

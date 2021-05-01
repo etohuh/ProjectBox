@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CollisionFollow : MonoBehaviour
 {
+    public Transform target;
+
     // Start is called before the first frame update
     void Start()
     {

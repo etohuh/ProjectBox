@@ -6,6 +6,10 @@ public class DialogTrigger : MonoBehaviour
 {
     public Dialog dialog;
 
+    private void Start() {
+        TriggerDialog();
+    }
+
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.gameObject.CompareTag("Player")) {
             TriggerDialog();
