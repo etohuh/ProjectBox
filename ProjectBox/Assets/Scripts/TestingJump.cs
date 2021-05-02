@@ -20,36 +20,34 @@ public class TestingJump : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update() {
 
-        if (Input.GetButtonDown("Fire1")) {
+        if (Input.GetButtonDown("Fire1") && mainCamera.orthographicSize == 4f) {
             if (isGrounded) {
                 dragPoint = mainCamera.ScreenToWorldPoint(Input.mousePosition);
             }
         }
 
-        if (Input.GetButton("Fire1")) {
+        if (Input.GetButton("Fire1") && mainCamera.orthographicSize == 4f) {
             if (isGrounded && dragPoint != Vector3.zero) {
                 distanceVector = dragPoint - mainCamera.ScreenToWorldPoint(Input.mousePosition);
                 tLine.DrawLine(transform, distanceVector);
                 tLine.EnableLine();
             }
-            
+
         }
 
-        if (Input.GetButtonUp("Fire1")) {
-            
+        if (Input.GetButtonUp("Fire1") && mainCamera.orthographicSize == 4f) {
+
             tLine.DisableLine();
-            if(isGrounded && dragPoint != Vector3.zero)
-            {
+            if (isGrounded && dragPoint != Vector3.zero) {
                 LaunchPlayer();
             }
             dragPoint = Vector3.zero;
-            
+
         }
 
-        
+
     }
 
     void LaunchPlayer() {
