@@ -19,8 +19,7 @@ public class TestingJump : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update() {
 
         if (Input.GetButtonDown("Fire1") && mainCamera.orthographicSize == 4f) {
             if (isGrounded) {
@@ -34,30 +33,27 @@ public class TestingJump : MonoBehaviour
                 tLine.DrawLine(transform, distanceVector);
                 tLine.EnableLine();
             }
-            
+
         }
 
         if (Input.GetButtonUp("Fire1") && mainCamera.orthographicSize == 4f) {
-            
             tLine.DisableLine();
-            if(isGrounded && dragPoint != Vector3.zero)
-            {
+            if (isGrounded && dragPoint != Vector3.zero) {
                 LaunchPlayer();
             }
             dragPoint = Vector3.zero;
-            
+
         }
 
-        
+
     }
 
     void LaunchPlayer() {
-        rb.AddForce(Vector3.ClampMagnitude(distanceVector, maxJumpforce) * 8, ForceMode2D.Impulse); 
-
+        rb.AddForce(Vector3.ClampMagnitude(distanceVector, maxJumpforce) * 8, ForceMode2D.Impulse);
     }
 
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("ground"))
         {
@@ -66,10 +62,8 @@ public class TestingJump : MonoBehaviour
        
     }
 
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("ground"))
-        {
+    private void OnCollisionExit2D(Collision2D collision) {
+        if (collision.gameObject.CompareTag("ground")) {
             isGrounded = false;
         }
     }

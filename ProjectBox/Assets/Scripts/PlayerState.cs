@@ -11,6 +11,7 @@ public class PlayerState : MonoBehaviour
     private Transform respawnPos;
 
     public int coinAmount;
+    public bool useStartingPos;
 
     private Transform playerPos;
     private Rigidbody2D playerRB;
@@ -27,8 +28,12 @@ public class PlayerState : MonoBehaviour
 
 
         isAlive = true;
-        playerPos.position = startingPos.position;
+        if (useStartingPos) {
+            playerPos.position = startingPos.position;
+            
+        }
         SetRespawnPos(startingPos);
+
     }
 
     // Update is called once per frame
