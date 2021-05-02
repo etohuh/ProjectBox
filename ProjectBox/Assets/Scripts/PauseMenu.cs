@@ -6,7 +6,6 @@ using UnityEngine;
 public class PauseMenu : MonoBehaviour
 {
     public GameObject canvas;
-    public GameObject exitObject;
 
     void Start()
     {
@@ -19,19 +18,21 @@ public class PauseMenu : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.Escape) == true && exitObject.GetComponent<Quest_Next_Level>().levelComplete == false)
+        if (Input.GetKeyDown(KeyCode.Escape) == true)
         {
-            if(Time.timeScale == 1)
-            {
-                Time.timeScale = 0;
-                canvas.SetActive(true);
+            PauseGame();
+        }
+    }
 
-            }
-            else
-            {
-                Time.timeScale = 1;
-                canvas.SetActive(false);
-            }
+    public void PauseGame() {
+        if (Time.timeScale == 1) {
+            Time.timeScale = 0;
+            canvas.SetActive(true);
+
+        }
+        else {
+            Time.timeScale = 1;
+            canvas.SetActive(false);
         }
     }
 }
