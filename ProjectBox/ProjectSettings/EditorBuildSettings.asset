@@ -6,15 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/Ivan.unity
-    guid: 81e7eaa3c302dc34fb4ebfa8ee876286
-  - enabled: 0
-    path: Assets/Scenes/Gregory_.unity
-    guid: 23434ba608f90464988ea0a866dbcac9
-  - enabled: 1
     path: Assets/Scenes/Dialog.unity
     guid: 18713b7d6ced5c04292347e3052b50ef
-  - enabled: 0
-    path: Assets/Scenes/SplashScreen.unity
-    guid: 8dd1c74c5874b51439559c49f84b18e5
+  - enabled: 1
+    path: Assets/Scenes/Gregory_.unity
+    guid: 23434ba608f90464988ea0a866dbcac9
   m_configObjects: {}

@@ -53,13 +53,14 @@ public class TestingJump : MonoBehaviour
     }
 
     void LaunchPlayer() {
-        rb.AddForce(Vector3.ClampMagnitude(distanceVector, maxJumpforce) * 8, ForceMode2D.Impulse);
+        rb.AddForce(Vector3.ClampMagnitude(distanceVector, maxJumpforce) * 8, ForceMode2D.Impulse); 
+
     }
 
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("ground") || collision.gameObject.CompareTag("GroundUp") || collision.gameObject.CompareTag("GroundDown") || collision.gameObject.CompareTag("GroundLeft") || collision.gameObject.CompareTag("GroundRight"))
+        if (collision.gameObject.CompareTag("ground"))
         {
             isGrounded = true;
         }
@@ -68,7 +69,7 @@ public class TestingJump : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("ground") || collision.gameObject.CompareTag("GroundUp") || collision.gameObject.CompareTag("GroundDown") || collision.gameObject.CompareTag("GroundLeft") || collision.gameObject.CompareTag("GroundRight"))
+        if (collision.gameObject.CompareTag("ground"))
         {
             isGrounded = false;
         }
