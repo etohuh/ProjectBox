@@ -10,14 +10,9 @@ public class DialogTrigger : MonoBehaviour
         TriggerDialog();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision) {
-        if (collision.gameObject.CompareTag("Player")) {
-            TriggerDialog();
-        }
-    }
-
     public void TriggerDialog() {
         Time.timeScale = 0;
+        print("working");
         FindObjectOfType<DialogManager>().StartDialog(dialog);
     }
 }

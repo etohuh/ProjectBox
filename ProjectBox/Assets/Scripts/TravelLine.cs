@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TravelLine : MonoBehaviour
 {
-
+    public float maxMagnitude;
     public LineRenderer lRenderer;
 
     void Start()
@@ -22,9 +22,10 @@ public class TravelLine : MonoBehaviour
 
 
     public void DrawLine(Transform origin, Vector3 endpoint) {
-
+        Vector3 myVector;
+        myVector = (endpoint + origin.position);
         lRenderer.SetPosition(0, origin.position);
-        lRenderer.SetPosition(1, endpoint + origin.position);
+        lRenderer.SetPosition(1, myVector);
 
     }
 

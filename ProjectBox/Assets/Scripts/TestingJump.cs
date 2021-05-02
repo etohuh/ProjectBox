@@ -24,12 +24,13 @@ public class TestingJump : MonoBehaviour
     {
 
         if (Input.GetButtonDown("Fire1")) {
-            if(isGrounded)
+            if (isGrounded) {
                 dragPoint = mainCamera.ScreenToWorldPoint(Input.mousePosition);
+            }
         }
 
         if (Input.GetButton("Fire1")) {
-            if (isGrounded) {
+            if (isGrounded && dragPoint != Vector3.zero) {
                 distanceVector = dragPoint - mainCamera.ScreenToWorldPoint(Input.mousePosition);
                 tLine.DrawLine(transform, distanceVector);
                 tLine.EnableLine();
@@ -40,7 +41,7 @@ public class TestingJump : MonoBehaviour
         if (Input.GetButtonUp("Fire1")) {
             
             tLine.DisableLine();
-            if(isGrounded == true)
+            if(isGrounded && dragPoint != Vector3.zero)
             {
                 LaunchPlayer();
             }
