@@ -14,6 +14,7 @@ public class PlayerState : MonoBehaviour
     private Rigidbody2D playerRB;
 
     public GravityController gravController;
+    [SerializeField] private AudioSource audioSource;
 
 
     // Start is called before the first frame update
@@ -37,7 +38,11 @@ public class PlayerState : MonoBehaviour
     public void KillPlayer() {
 
         if(isAlive)
+        {
             Respawn();
+            audioSource.Play();
+        }
+            
 
     }
 
