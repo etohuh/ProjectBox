@@ -51,6 +51,7 @@ public class GravityController : MonoBehaviour
 
 
     public void ResetBools() {
+        print("resetfuckj");
         leftGravity = false;
         rightGravity = false;
         topGravity = false;

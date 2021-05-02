@@ -57,19 +57,17 @@ public class TestingJump : MonoBehaviour
     }
 
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionStay2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("ground") || collision.gameObject.CompareTag("GroundUp") || collision.gameObject.CompareTag("GroundDown") || collision.gameObject.CompareTag("GroundLeft") || collision.gameObject.CompareTag("GroundRight"))
+        if (collision.gameObject.CompareTag("ground"))
         {
             isGrounded = true;
         }
        
     }
 
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("ground") || collision.gameObject.CompareTag("GroundUp") || collision.gameObject.CompareTag("GroundDown") || collision.gameObject.CompareTag("GroundLeft") || collision.gameObject.CompareTag("GroundRight"))
-        {
+    private void OnCollisionExit2D(Collision2D collision) {
+        if (collision.gameObject.CompareTag("ground")) {
             isGrounded = false;
         }
     }
