@@ -13,7 +13,7 @@ public class LaserShotTravel : MonoBehaviour
 
     void Start()
     {
-        rb.velocity = transform.right * -speed;
+        rb.velocity = transform.right * speed;
     }
 
     private void Update()
@@ -36,10 +36,8 @@ public class LaserShotTravel : MonoBehaviour
         gameObject.GetComponent<Collider2D>().enabled = false;
         hasCollided = true;
 
-        //if (collision.CompareTag("Player"))
-        //{
-        //    ls.player.GetComponent<PlayerState>().KillPlayer();
-        //}
+
+        gameObject.GetComponent<Collider2D>().enabled = false;
 
 
     }

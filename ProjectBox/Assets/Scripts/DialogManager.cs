@@ -9,12 +9,10 @@ public class DialogManager : MonoBehaviour
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogText;
 
-    public GameObject nextButton;
-
     private Queue<string> sentences;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         sentences = new Queue<string>();
     }
@@ -29,11 +27,17 @@ public class DialogManager : MonoBehaviour
 
         nameText.text = dialog.name;
 
+
         sentences.Clear();
 
-        foreach(string sentence in dialog.sentences) {
-            sentences.Enqueue(sentence);
+
+        
+        if(dialog.sentences != null) {
+            foreach (string sentence in dialog.sentences) {
+                sentences.Enqueue(sentence);
+            }
         }
+        
 
         DisplayNextSentence();
 

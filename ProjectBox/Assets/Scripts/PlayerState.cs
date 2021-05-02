@@ -10,6 +10,8 @@ public class PlayerState : MonoBehaviour
     
     private Transform respawnPos;
 
+    public int coinAmount;
+
     private Transform playerPos;
     private Rigidbody2D playerRB;
 
