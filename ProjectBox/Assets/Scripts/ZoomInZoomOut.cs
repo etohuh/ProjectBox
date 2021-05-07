@@ -6,22 +6,27 @@ using UnityEngine.UI;
 public class ZoomInZoomOut : MonoBehaviour
 {
 
-    Camera mainCamera;
-    float touchesPrevPosDifference, touchesCurPosDifference, zoomModifier;
-    Vector2 firstTouchPrevPos, secondTouchPrevPos;
+    private Camera mainCamera;
+    private float touchesPrevPosDifference, touchesCurPosDifference, zoomModifier;
+    private Vector2 firstTouchPrevPos, secondTouchPrevPos;
 
     [SerializeField] float zoomModifierSpeed = 0.1f;
     
 
     void Start()
     {
-        mainCamera = GetComponent<Camera>();
+        mainCamera = transform.GetComponent<Camera>();
     }
 
  
     void Update()
     {
-        if(Input.touchCount == 2)
+        CameraView();
+    }
+
+    private void CameraView()
+    {
+        if (Input.touchCount == 2)
         {
             Touch firstTouch = Input.GetTouch(0);
             Touch secondTouch = Input.GetTouch(1);
@@ -29,12 +34,15 @@ public class ZoomInZoomOut : MonoBehaviour
             firstTouchPrevPos = firstTouch.position - firstTouch.deltaPosition;
             secondTouchPrevPos = secondTouch.position - secondTouch.deltaPosition;
 
+            touchesPrevPosDifference = (firstTouchPrevPos - secondTouchPrevPos).magnitude;
+            touchesCurPosDifference = (firstTouch.position - secondTouch.position).magnitude;
+
             zoomModifier = (firstTouch.deltaPosition - secondTouch.deltaPosition).magnitude * zoomModifierSpeed;
-            if(touchesPrevPosDifference > touchesCurPosDifference)
+            if (touchesPrevPosDifference > touchesCurPosDifference)
             {
                 mainCamera.orthographicSize += zoomModifier;
             }
-            if(touchesPrevPosDifference < touchesCurPosDifference)
+            if (touchesPrevPosDifference < touchesCurPosDifference)
             {
                 mainCamera.orthographicSize -= zoomModifier;
             }

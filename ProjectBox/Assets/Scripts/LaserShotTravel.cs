@@ -33,6 +33,7 @@ public class LaserShotTravel : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {        
         gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        gameObject.GetComponent<Collider2D>().enabled = false;
         hasCollided = true;
 
 
