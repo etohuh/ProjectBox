@@ -7,27 +7,28 @@ public class LazerActivation : MonoBehaviour
 {
 
     [SerializeField] private GameObject lazer;
-    [SerializeField] private float timeToToggle;
+    [SerializeField] private float timeToToggle, activatedTimer;
     private float timeCount = 0;
 
 
     private void Start()
     {
         timeCount = timeToToggle;
+
     }
 
     private void Update()
     {
 
-        if (timeToToggle > 0)
+        if (timeCount > 0)
         {
-            timeToToggle -= Time.deltaTime;
+            timeCount -= Time.deltaTime;
         }
         else
         {
             ToggleLazer();
-            timeToToggle = timeCount;
-            print("trigger");
+            
+            
         }
     }
 
@@ -36,11 +37,12 @@ public class LazerActivation : MonoBehaviour
         if (lazer.activeSelf)
         {
             lazer.SetActive(false);
-            print ("hey");
-        }else if (!lazer.activeSelf)
+            timeCount = timeToToggle;
+        }
+        else if (!lazer.activeSelf)
         {
             lazer.SetActive(true);
-            print("bye");
+            timeCount = activatedTimer;
         }
         
     }
