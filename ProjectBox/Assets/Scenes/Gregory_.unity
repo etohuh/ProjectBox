@@ -8670,6 +8670,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1829578995}
+    - target: {fileID: 8787794566373516866, guid: 276bb2fa3d872b6418609de58977eb0b, type: 3}
+      propertyPath: smoothSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 8787794566373516869, guid: 276bb2fa3d872b6418609de58977eb0b, type: 3}
       propertyPath: m_Name
       value: Main Camera
@@ -10610,6 +10614,22 @@ PrefabInstance:
     - target: {fileID: 4911832713238987796, guid: 9acea4399245c994b98f46f5e783749d, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4911832714085179148, guid: 9acea4399245c994b98f46f5e783749d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8d2859286f006a344a5e9db01f40f99b, type: 3}
+    - target: {fileID: 4911832714085179148, guid: 9acea4399245c994b98f46f5e783749d, type: 3}
+      propertyPath: m_Color.b
+      value: 0.21960786
+      objectReference: {fileID: 0}
+    - target: {fileID: 4911832714085179148, guid: 9acea4399245c994b98f46f5e783749d, type: 3}
+      propertyPath: m_Color.g
+      value: 0.21960786
+      objectReference: {fileID: 0}
+    - target: {fileID: 4911832714085179148, guid: 9acea4399245c994b98f46f5e783749d, type: 3}
+      propertyPath: m_Color.r
+      value: 0.21960786
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9acea4399245c994b98f46f5e783749d, type: 3}
