@@ -13,7 +13,6 @@ public class TestingJump : MonoBehaviour
     public float launchForce;
     private bool isGrounded = false;
     public float maxJumpforce;
-
     void Start()
     {
         
@@ -38,7 +37,6 @@ public class TestingJump : MonoBehaviour
         }
 
         if (Input.GetButtonUp("Fire1") && mainCamera.orthographicSize == 4f) {
-
             tLine.DisableLine();
             if (isGrounded && dragPoint != Vector3.zero) {
                 LaunchPlayer();
