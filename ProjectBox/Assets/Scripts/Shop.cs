@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -6,39 +5,49 @@ using UnityEngine.UI;
 
 public class Shop : MonoBehaviour
 {
-    [System.Serializable] class ShopItem
+    #region Singleton:Shop
+    public static Shop Instance;
+    void Awake()
+    {
+        if (Instance == null)
+            Instance = this;
+        else
+            Destroy(gameObject);
+    }
+    #endregion
+    [System.Serializable] public class ShopItem
     {
         public Sprite Image;
         public int Price;
         public bool IsPurchased = false;
     }
 
-    [SerializeField] List<ShopItem> ShopItemList;
+    public List<ShopItem> ShopItemList;
     [SerializeField] Animator NoMoneyAnim;
-    [SerializeField] Text MoneyText;
+    
 
-    GameObject ItemTemplate;
-    GameObject si;
+    [SerializeField]GameObject ItemTemplate;
+    GameObject g;
     [SerializeField] Transform ShopScrollView;
+    [SerializeField] GameObject ShopPanel;
     Button buyBtn;
 
     void Start()
-    {
-        ItemTemplate = ShopScrollView.GetChild(0).gameObject;
-
+    {        
         int len = ShopItemList.Count;
         for (int i = 0; i < len; i++)
         {
-            si = Instantiate(ItemTemplate, ShopScrollView);
-            si.transform.GetChild(0).GetComponent<Image>().sprite = ShopItemList[i].Image;
-            si.transform.GetChild(1).GetChild(0).GetComponent<Text>().text = ShopItemList[i].Price.ToString();
-            buyBtn = si.transform.GetChild(2).GetComponent<Button>();
-            buyBtn.interactable = !ShopItemList[i].IsPurchased;
+            g = Instantiate(ItemTemplate, ShopScrollView);
+            g.transform.GetChild(0).GetComponent<Image>().sprite = ShopItemList[i].Image;
+            g.transform.GetChild(1).GetChild(0).GetComponent<Text>().text = ShopItemList[i].Price.ToString();
+            buyBtn = g.transform.GetChild(2).GetComponent<Button>();
+            if (ShopItemList[i].IsPurchased)
+            {
+                DisableBuyButton();
+            }           
             buyBtn.AddEventListener(i, OnShopItemBtnClicked);
-
         }
-
-        Destroy(ItemTemplate);
+        
     }
 
     void OnShopItemBtnClicked(int itemIndex)
@@ -49,13 +58,17 @@ public class Shop : MonoBehaviour
             //purchase Item
             ShopItemList[itemIndex].IsPurchased = true;
 
-            //disable the button
-            buyBtn = ShopScrollView.GetChild(itemIndex).GetChild(2).GetComponent<Button>();
-            buyBtn.interactable = false;
-            buyBtn.transform.GetChild(0).GetComponent<Text>().text = "PURCHASED";
+            //disable the button      
+                buyBtn = ShopScrollView.GetChild(itemIndex).GetChild(2).GetComponent<Button>();
+                DisableBuyButton();
+            
+            
 
             //change UI text: money
             Buy.Instance.UpdateMoneyUIText();
+
+            //add skin
+            Profile.Instance.AddSkin(ShopItemList[itemIndex].Image);            
         }
         else
         {
@@ -64,16 +77,22 @@ public class Shop : MonoBehaviour
         }
     }
 
+    void DisableBuyButton()
+    {
+        buyBtn.interactable = false;
+        buyBtn.transform.GetChild(0).GetComponent<Text>().text = "PURCHASED";
+    }
+
    
 
     //open & close shop
     public void OpenShop()
     {
-        gameObject.SetActive(true);
+        ShopPanel.SetActive(true);
     }
 
     public void CloseShop()
     {
-        gameObject.SetActive(false);
+        ShopPanel.SetActive(false);
     }
 }
