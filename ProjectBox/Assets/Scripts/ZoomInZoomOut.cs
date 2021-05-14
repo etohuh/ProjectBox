@@ -81,28 +81,7 @@ public class ZoomInZoomOut : MonoBehaviour
             lr.enabled = true;
             lr.SetPosition(0, player.position);
             lr.SetPosition(1, endPoint.transform.position);
-            
-            // float angle = Mathf.Atan2(distanceVector.y, distanceVector.x) * Mathf.Rad2Deg;
-            // if (angle < 0)
-            //     angle += 360;
-            // endPointer.localEulerAngles = new Vector3(0, 0, angle);
-            // float borderSize = 100f;
-            // Vector3 endPointScreenPoint = mainCamera.WorldToScreenPoint(endPoint.transform.position);
-            //
-            // Vector3 cappedScreenPosition = endPointScreenPoint;
-            // if (cappedScreenPosition.x <= borderSize)
-            //     cappedScreenPosition.x = borderSize;
-            // if (cappedScreenPosition.x >= Screen.width - borderSize)
-            //     cappedScreenPosition.x = Screen.width - borderSize;
-            // if (cappedScreenPosition.y <= borderSize)
-            //     cappedScreenPosition.y = borderSize;
-            // if (cappedScreenPosition.y >= Screen.height - borderSize)
-            //     cappedScreenPosition.y = Screen.height - borderSize;
-            //
-            // Vector3 pointerWorldPos = mainCamera.ScreenToWorldPoint(cappedScreenPosition);
-            // endPointer.position = pointerWorldPos;
-            // endPointer.localPosition = new Vector3(endPointer.localPosition.x, endPointer.localPosition.y, 0f);
-            
+
         }
 
     }
