@@ -13,6 +13,7 @@ public class LevelLoader : MonoBehaviour
     {
         if (Input.GetKeyDown("l"))
         {
+            Time.timeScale = 1;
             LoadLevelWithTransition();
         }  
     }
