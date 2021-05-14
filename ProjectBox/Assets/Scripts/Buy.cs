@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class Buy : MonoBehaviour
 {
-    #region SIngleton:Buy
+    #region Singleton:Buy
 
     public static Buy Instance;
 
-    private void Awake()
+    void Awake()
     {
         if (Instance == null)
         {
