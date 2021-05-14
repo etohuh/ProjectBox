@@ -8,6 +8,8 @@ public class DialogManager : MonoBehaviour
 {
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogText;
+    private int index;
+    public LevelLoader lLoader;
 
     private Queue<string> sentences;
 
@@ -58,11 +60,12 @@ public class DialogManager : MonoBehaviour
         dialogText.text = "";
         foreach (char letter in sentence.ToCharArray()) {
             dialogText.text += letter;
-            yield return null;
+            yield return new WaitForSeconds(0.02f);
         }
     }
 
     public void EndDialog() {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+        lLoader.LoadLevelWithTransition();
     }
 }
