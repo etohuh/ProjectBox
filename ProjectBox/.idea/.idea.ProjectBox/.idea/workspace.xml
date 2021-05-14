@@ -1,13 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2450bb3-591c-4942-bff1-1cf7059d8574" name="Default Changelist" comment="" />
+    <list default="true" id="b2450bb3-591c-4942-bff1-1cf7059d8574" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Assembly-CSharp.dir/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Assembly-CSharp.dir/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Assembly-CSharp.dir/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Assembly-CSharp.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Assembly-CSharp.dir/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Assembly-CSharp.dir/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Greg_Level3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Greg_Level3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory_.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gregory_.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GravityController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GravityController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Killbox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Killbox.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TestingJump.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TestingJump.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ZoomInZoomOut.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ZoomInZoomOut.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/GravityController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Killbox.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/TestingJump.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ZoomInZoomOut.cs" />
+    </changedPaths>
+  </component>
   <component name="ProjectId" id="1sJkA9olFL1OZQghnA0L5x56dqx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,6 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1620597934044</updated>
       <workItem from="1620597939731" duration="287000" />
+      <workItem from="1620993059788" duration="6085000" />
     </task>
     <servers />
   </component>

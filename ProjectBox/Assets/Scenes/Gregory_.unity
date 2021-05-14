@@ -10463,7 +10463,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2632874397924648476, guid: 54af9ae127cf746449905fc3580b7d54, type: 3}
       propertyPath: m_Name
-      value: Text (TMP)
+      value: GOALTEXT
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54af9ae127cf746449905fc3580b7d54, type: 3}
@@ -10626,18 +10626,18 @@ PrefabInstance:
     - target: {fileID: 4911832714085179148, guid: 9acea4399245c994b98f46f5e783749d, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 8d2859286f006a344a5e9db01f40f99b, type: 3}
+      objectReference: {fileID: 21300000, guid: 30382d386e18139438ce3e2b385adf93, type: 3}
     - target: {fileID: 4911832714085179148, guid: 9acea4399245c994b98f46f5e783749d, type: 3}
       propertyPath: m_Color.b
-      value: 0.21960786
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4911832714085179148, guid: 9acea4399245c994b98f46f5e783749d, type: 3}
       propertyPath: m_Color.g
-      value: 0.21960786
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4911832714085179148, guid: 9acea4399245c994b98f46f5e783749d, type: 3}
       propertyPath: m_Color.r
-      value: 0.21960786
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9acea4399245c994b98f46f5e783749d, type: 3}

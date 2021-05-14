@@ -25,6 +25,9 @@ public class TestingJump : MonoBehaviour
             if (isGrounded) {
                 dragPoint = mainCamera.ScreenToWorldPoint(Input.mousePosition);
             }
+        }else if (Input.GetButtonDown("Fire1") && mainCamera.orthographicSize > 4f)
+        {
+            mainCamera.GetComponent<ZoomInZoomOut>().ResetCamera();
         }
 
         if (Input.GetButton("Fire1") && mainCamera.orthographicSize == 4f) {
