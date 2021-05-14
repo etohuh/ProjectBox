@@ -51,7 +51,6 @@ public class GravityController : MonoBehaviour
 
 
     public void ResetBools() {
-        print("resetfuckj");
         leftGravity = false;
         rightGravity = false;
         topGravity = false;
@@ -59,7 +58,6 @@ public class GravityController : MonoBehaviour
     }
 
     public void ResetGravity() {
-        print("working");
         ResetBools();
         playerSprite.rotation = Quaternion.Euler(0, 0, 0);
         gravityVector = new Vector3(0, -gravityconst, 0);
