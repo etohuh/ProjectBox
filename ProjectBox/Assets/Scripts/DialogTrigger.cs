@@ -11,7 +11,7 @@ public class DialogTrigger : MonoBehaviour
     }
 
     public void TriggerDialog() {
-        Time.timeScale = 0;
+        //Time.timeScale = 0;
         print("working");
         FindObjectOfType<DialogManager>().StartDialog(dialog);
     }
