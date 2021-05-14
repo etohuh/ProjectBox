@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class CompletionNextLevel : MonoBehaviour
 {
+    //[SerializeField] private LevelLoader levelLoader;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +19,9 @@ public class CompletionNextLevel : MonoBehaviour
     }
 
     public void NextLevelSelect() {
+
+        //levelLoader.LoadLevel();
+
         if (SceneManager.sceneCountInBuildSettings <= SceneManager.GetActiveScene().buildIndex + 1) {
             SceneManager.LoadScene(0);
         }
@@ -28,4 +32,5 @@ public class CompletionNextLevel : MonoBehaviour
         }
 
     }
+
 }
