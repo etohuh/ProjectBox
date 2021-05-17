@@ -3,12 +3,29 @@
   <component name="ChangeListManager">
     <list default="true" id="b2450bb3-591c-4942-bff1-1cf7059d8574" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NewLevelRequired/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/NewLevelRequired/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Greg_Level3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Greg_Level3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Image.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Image.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dialog.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dialog.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory_.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gregory_.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Checkpoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Checkpoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/BoxxieLOGO.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/BoxxieLOGO.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/IsometricDiamond.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/IsometricDiamond.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SamlingSpriteMap.psd" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/SamlingSpriteMap.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SamlingSpriteMap.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/SamlingSpriteMap.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SamlingSpriteMapEMISSION.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SamlingSpriteMapEMISSION.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/boxxie_png.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/boxxie_png.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sprites/circle.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/circle.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sprites/circle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/circle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/playerEmission.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/playerEmission.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/playerSpriteWobbleEmission.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/playerSpriteWobbleEmission.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tileTESTEMISSION.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tileTESTEMISSION.psd.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +36,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/SelectLevel.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/GravityController.cs" />
@@ -26,6 +46,12 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/TestingJump.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ZoomInZoomOut.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DialogManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Checkpoint.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelSelector.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PageSwiper.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" />
+      <option value="$PROJECT_DIR$/Assets/SelectLevel.cs" />
+      <option value="$PROJECT_DIR$/Assets/LevelSelect.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sJkA9olFL1OZQghnA0L5x56dqx" />
@@ -39,6 +65,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -72,7 +99,8 @@
       <option name="presentableId" value="Default" />
       <updated>1620597934044</updated>
       <workItem from="1620597939731" duration="287000" />
-      <workItem from="1620993059788" duration="10992000" />
+      <workItem from="1620993059788" duration="11821000" />
+      <workItem from="1621257751011" duration="6768000" />
     </task>
     <servers />
   </component>
@@ -81,6 +109,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

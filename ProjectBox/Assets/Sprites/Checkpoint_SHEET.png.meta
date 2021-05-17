@@ -1,52 +1,7 @@
 fileFormatVersion: 2
-guid: bc2110766bf3492468f68632a8729ae0
+guid: ca843a54adf6fd64188fd6121dee8b10
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -7228167819707946080
-    second: SamlingSpriteMapEMISSION_0
-  - first:
-      213: -5562584559475431452
-    second: SamlingSpriteMapEMISSION_1
-  - first:
-      213: -4512379156564821991
-    second: SamlingSpriteMapEMISSION_2
-  - first:
-      213: -4213148826711959528
-    second: SamlingSpriteMapEMISSION_3
-  - first:
-      213: 5370710808036612915
-    second: SamlingSpriteMapEMISSION_4
-  - first:
-      213: -6995078011976291784
-    second: SamlingSpriteMapEMISSION_5
-  - first:
-      213: 1252198579697635458
-    second: SamlingSpriteMapEMISSION_6
-  - first:
-      213: -8537347420306265507
-    second: SamlingSpriteMapEMISSION_7
-  - first:
-      213: -8762911027336607784
-    second: SamlingSpriteMapEMISSION_8
-  - first:
-      213: 7319754477808215939
-    second: SamlingSpriteMapEMISSION_9
-  - first:
-      213: -5252971430774285374
-    second: SamlingSpriteMapEMISSION_10
-  - first:
-      213: 865872829142337881
-    second: SamlingSpriteMapEMISSION_11
-  - first:
-      213: 8187018088955122675
-    second: SamlingSpriteMapEMISSION_12
-  - first:
-      213: 7207987482940338376
-    second: SamlingSpriteMapEMISSION_13
-  - first:
-      213: 6863286001586154930
-    second: SamlingSpriteMapEMISSION_14
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -77,7 +32,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -172,13 +127,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SamlingSpriteMapEMISSION_0
+      name: Checkpoint_SHEET_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1024
-        width: 512
-        height: 512
+        x: 50
+        y: 1098
+        width: 225
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,20 +141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0abe5691aa360bb90800000000000000
-      internalID: -7228167819707946080
+      spriteID: 09488aad73adad020800000000000000
+      internalID: 2367444487563150480
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SamlingSpriteMapEMISSION_1
+      name: Checkpoint_SHEET_1
       rect:
         serializedVersion: 2
-        x: 512
-        y: 1024
-        width: 512
-        height: 512
+        x: 307
+        y: 1098
+        width: 265
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e7e463a0dabdc2b0800000000000000
-      internalID: -5562584559475431452
+      spriteID: 73155c0c3dce05dd0800000000000000
+      internalID: -2499237398974213833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SamlingSpriteMapEMISSION_2
+      name: Checkpoint_SHEET_3
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 1024
-        width: 512
-        height: 512
+        x: 604
+        y: 1098
+        width: 305
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,20 +183,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 918b311901fc061c0800000000000000
-      internalID: -4512379156564821991
+      spriteID: 41a2bc112be2dcf30800000000000000
+      internalID: 4597382136952728084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SamlingSpriteMapEMISSION_3
+      name: Checkpoint_SHEET_4
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 1024
-        width: 512
-        height: 512
+        x: 951
+        y: 1098
+        width: 385
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,20 +204,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 818dafdd673e785c0800000000000000
-      internalID: -4213148826711959528
+      spriteID: 9fd4a1344878e3770800000000000000
+      internalID: 8592454141200715257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SamlingSpriteMapEMISSION_4
+      name: Checkpoint_SHEET_6
       rect:
         serializedVersion: 2
-        x: 2048
-        y: 1024
-        width: 512
-        height: 512
+        x: 155
+        y: 786
+        width: 405
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,20 +225,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33b9f505609988a40800000000000000
-      internalID: 5370710808036612915
+      spriteID: c8834e28e6b8cc620800000000000000
+      internalID: 2795762775448893580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SamlingSpriteMapEMISSION_5
+      name: Checkpoint_SHEET_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 512
-        width: 512
-        height: 512
+        x: 853
+        y: 786
+        width: 425
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,20 +246,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83ae1001c9d7cee90800000000000000
-      internalID: -6995078011976291784
+      spriteID: 08ef5a68964454a10800000000000000
+      internalID: 1892994438400441984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SamlingSpriteMapEMISSION_6
+      name: Checkpoint_SHEET_10
       rect:
         serializedVersion: 2
-        x: 512
-        y: 512
-        width: 512
-        height: 512
+        x: 139
+        y: 441
+        width: 445
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,20 +267,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 280502b49f3b06110800000000000000
-      internalID: 1252198579697635458
+      spriteID: 9a31fecbe30aaafd0800000000000000
+      internalID: -2329873665892609111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SamlingSpriteMapEMISSION_7
+      name: Checkpoint_SHEET_12
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 512
-        width: 512
-        height: 512
+        x: 814
+        y: 441
+        width: 465
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -333,20 +288,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5a2c8801cf358980800000000000000
-      internalID: -8537347420306265507
+      spriteID: b78bcc4e5a93206e0800000000000000
+      internalID: -1872871110361696133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SamlingSpriteMapEMISSION_8
+      name: Checkpoint_SHEET_14
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 512
-        width: 512
-        height: 512
+        x: 99
+        y: 55
+        width: 484
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -354,20 +309,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d78f3939d2e36680800000000000000
-      internalID: -8762911027336607784
+      spriteID: 5ea739cdc21adffe0800000000000000
+      internalID: -1153588715485693211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SamlingSpriteMapEMISSION_9
+      name: Checkpoint_SHEET_16
       rect:
         serializedVersion: 2
-        x: 2048
-        y: 512
-        width: 512
-        height: 512
+        x: 841
+        y: 55
+        width: 495
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -375,113 +330,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38765d47aedf49560800000000000000
-      internalID: 7319754477808215939
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SamlingSpriteMapEMISSION_10
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2cb5c6da052b917b0800000000000000
-      internalID: -5252971430774285374
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SamlingSpriteMapEMISSION_11
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 95901b120c2340c00800000000000000
-      internalID: 865872829142337881
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SamlingSpriteMapEMISSION_12
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 0
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f31ed143912e9170800000000000000
-      internalID: 8187018088955122675
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SamlingSpriteMapEMISSION_13
-      rect:
-        serializedVersion: 2
-        x: 1536
-        y: 0
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c0fe1a1d6ae70460800000000000000
-      internalID: 7207987482940338376
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SamlingSpriteMapEMISSION_14
-      rect:
-        serializedVersion: 2
-        x: 2048
-        y: 0
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2bd2474514a4f3f50800000000000000
-      internalID: 6863286001586154930
+      spriteID: 458a049a53c195b40800000000000000
+      internalID: 5429401842570274900
       vertices: []
       indices: 
       edges: []
@@ -498,7 +348,7 @@ TextureImporter:
     secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 1
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
