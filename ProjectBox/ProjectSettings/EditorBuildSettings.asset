@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/MarcusLevel.unity
     guid: 49cb1b2a83830284887bc2641418889b
   - enabled: 1
-    path: "Assets/Scenes/MarcusTesta\xD6verg\xE5ng.unity"
-    guid: da4f1b0c95347164b9ee34c2e8bdaf4e
-  - enabled: 1
     path: Assets/Scenes/Dialog.unity
     guid: 18713b7d6ced5c04292347e3052b50ef
   - enabled: 1
