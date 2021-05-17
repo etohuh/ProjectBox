@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2450bb3-591c-4942-bff1-1cf7059d8574" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Greg_Level3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Greg_Level3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NewLevelRequired/UI_CANVAS.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/NewLevelRequired/UI_CANVAS.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dialog2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dialog2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestingLevelSelect.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestingLevelSelect.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Quest_Next_Level.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Quest_Next_Level.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SelectLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SelectLevel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,13 +28,14 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Killbox.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/TestingJump.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ZoomInZoomOut.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DialogManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Checkpoint.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelSelector.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PageSwiper.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" />
-      <option value="$PROJECT_DIR$/Assets/SelectLevel.cs" />
       <option value="$PROJECT_DIR$/Assets/LevelSelect.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DialogManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Quest_Next_Level.cs" />
+      <option value="$PROJECT_DIR$/Assets/SelectLevel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sJkA9olFL1OZQghnA0L5x56dqx" />
@@ -77,7 +84,7 @@
       <updated>1620597934044</updated>
       <workItem from="1620597939731" duration="287000" />
       <workItem from="1620993059788" duration="11821000" />
-      <workItem from="1621257751011" duration="7194000" />
+      <workItem from="1621257751011" duration="8575000" />
     </task>
     <servers />
   </component>

@@ -5,28 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class CompletionNextLevel : MonoBehaviour
 {
-    //[SerializeField] private LevelLoader levelLoader;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [SerializeField] private LevelLoader levelLoader;
 
     public void NextLevelSelect() {
 
         //levelLoader.LoadLevel();
 
         if (SceneManager.sceneCountInBuildSettings <= SceneManager.GetActiveScene().buildIndex + 1) {
-            SceneManager.LoadScene(0);
+            levelLoader.LoadLevelWithTransition(0);
         }
         else {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            levelLoader.LoadLevelWithTransition();
             Time.timeScale = 1;
             PlayerPrefs.SetInt("CoinAmount", 0);
         }

@@ -9,24 +9,20 @@ public class Quest_Next_Level : MonoBehaviour
     public UI_Timer timer;
     public CompletionSetRecord recordScript;
     public PlayerState playerState;
-    public float whatLevel;
-    public bool levelComplete;
-
-    public int coinRequired;
+    private float whatLevel;
 
     private void Start() {
         timer = timer.GetComponent<UI_Timer>();
         recordScript = recordScript.GetComponent<CompletionSetRecord>();
         whatLevel = SceneManager.GetActiveScene().buildIndex;
         completionScreen.SetActive(false);
-        levelComplete = false;
         whatLevel = SceneManager.GetActiveScene().buildIndex;
 
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") == true)
+        if (collision.CompareTag("Player"))
         {   
            Game_Observer.SaveCoinsToMemory(collision.GetComponent<PlayerState>().coinAmount);
 
@@ -52,10 +48,9 @@ public class Quest_Next_Level : MonoBehaviour
                     recordScript.newRecord = true;
                 }
             }
-
+            
             recordScript.SetNewRecord();
                 Time.timeScale = 0;
-
                 completionScreen.SetActive(true);
         }
     }

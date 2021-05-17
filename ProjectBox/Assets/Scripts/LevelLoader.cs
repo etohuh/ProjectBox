@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class LevelLoader : MonoBehaviour
 {
-    // Update is called once per frame
     public Animator transition;
     public float transitionTime = 1f;
 
@@ -24,6 +23,7 @@ public class LevelLoader : MonoBehaviour
     }
     public void LoadLevelWithTransition(int sceneNumber)
     {
+        
         StartCoroutine(LoadLevelTransition(sceneNumber));
     }
 
