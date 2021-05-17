@@ -8,8 +8,8 @@ public class DialogManager : MonoBehaviour
 {
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogText;
-    private int index;
     public LevelLoader lLoader;
+    public AudioSource audioSource;
 
     private Queue<string> sentences;
 
@@ -59,8 +59,10 @@ public class DialogManager : MonoBehaviour
     IEnumerator TypeSentence (string sentence) {
         dialogText.text = "";
         foreach (char letter in sentence.ToCharArray()) {
+            audioSource.Play();
+            audioSource.pitch = Random.Range(0.9f, 1.1f);
             dialogText.text += letter;
-            yield return new WaitForSeconds(0.02f);
+            yield return new WaitForSeconds(0.05f);
         }
     }
 
