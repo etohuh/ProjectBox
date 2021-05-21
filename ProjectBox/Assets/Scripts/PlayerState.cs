@@ -16,9 +16,10 @@ public class PlayerState : MonoBehaviour
     private Transform playerPos;
     private Rigidbody2D playerRB;
 
+    [SerializeField] private GameObject deathUI;
+
     public GravityController gravController;
     [SerializeField] private AudioSource audioSource;
-
 
     // Start is called before the first frame update
     void Start()
@@ -38,22 +39,24 @@ public class PlayerState : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-       
+    {       
+
     }
 
     public void KillPlayer() {
 
         if(isAlive)
         {
-            Respawn();
             audioSource.Play();
-        }
-            
-
+            deathUI.SetActive(true);
+            Time.timeScale = 0;
+            //Respawn();         
+        }           
     }
 
-    private void Respawn() {
+    public void Respawn() {
+        Time.timeScale = 1;
+        deathUI.SetActive(false);
         gravController.ResetGravity();
         playerPos.position = respawnPos.position;
         playerRB.velocity = new Vector2(0, 0);

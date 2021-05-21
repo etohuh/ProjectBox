@@ -13,6 +13,7 @@ public class LevelSelect : MonoBehaviour
     public GameObject levelSelect;
     private TextMeshProUGUI[] recordArray; 
     private TextMeshProUGUI previous;
+    [SerializeField] private GameObject deathUI;
     private void Awake()
     {
         recordArray = new TextMeshProUGUI[10];
@@ -31,6 +32,7 @@ public class LevelSelect : MonoBehaviour
 
     public void OpenLevelSelect() {
         levelSelect.SetActive(true);
+        deathUI.SetActive(false);
         recordTextLevel1.text = PlayerPrefs.GetString("level1TimeString");
         recordTextLevel2.text = PlayerPrefs.GetString("level2TimeString");
         recordTextLevel3.text = PlayerPrefs.GetString("level3TimeString");

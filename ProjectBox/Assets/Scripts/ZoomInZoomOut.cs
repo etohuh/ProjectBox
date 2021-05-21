@@ -62,7 +62,7 @@ public class ZoomInZoomOut : MonoBehaviour
                 mainCamera.orthographicSize -= zoomModifier;
             }
 
-            //sätter storlek på kameran. 4f min 10f max.
+            //sï¿½tter storlek pï¿½ kameran. 4f min 10f max.
             mainCamera.orthographicSize = Mathf.Clamp(mainCamera.orthographicSize, 4f, 10f);
             //Zoom for computer - assigned to "Z"
         }else if (Input.GetKeyDown(KeyCode.Z))
@@ -81,6 +81,9 @@ public class ZoomInZoomOut : MonoBehaviour
 
     public void ShowEnd()
     {
+        lr.enabled = true;
+        lr.SetPosition(0, player.position);
+        lr.SetPosition(1, endPoint.transform.position);
 
         
         lr.enabled = true;

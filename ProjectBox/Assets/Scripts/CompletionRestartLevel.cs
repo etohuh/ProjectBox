@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class CompletionRestartLevel : MonoBehaviour
 {
+    [SerializeField] private GameObject deathUI;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,5 +22,6 @@ public class CompletionRestartLevel : MonoBehaviour
     public void CompletionRestart() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         Time.timeScale = 1;
+        deathUI.SetActive(false);
     }
 }

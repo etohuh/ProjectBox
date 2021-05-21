@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Ivan.unity
+    path: Assets/Scenes/Ivan_mainmenu.unity
     guid: 81e7eaa3c302dc34fb4ebfa8ee876286
   - enabled: 1
     path: Assets/Scenes/MarcusLevel.unity

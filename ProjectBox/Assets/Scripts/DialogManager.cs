@@ -26,24 +26,16 @@ public class DialogManager : MonoBehaviour
     }
 
     public void StartDialog(Dialog dialog) {
-
         nameText.text = dialog.name;
-
-
         sentences.Clear();
-
-
         
         if(dialog.sentences != null) {
             foreach (string sentence in dialog.sentences) {
                 sentences.Enqueue(sentence);
             }
-        }
-        
+        }       
 
-        DisplayNextSentence();
-
-        
+        DisplayNextSentence();       
     }
     public void DisplayNextSentence() {
         if (sentences.Count == 0) {
