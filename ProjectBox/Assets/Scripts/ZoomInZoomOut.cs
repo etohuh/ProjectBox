@@ -11,6 +11,7 @@ public class ZoomInZoomOut : MonoBehaviour
     private Camera mainCamera;
     private float touchesPrevPosDifference, touchesCurPosDifference, zoomModifier;
     private Vector2 firstTouchPrevPos, secondTouchPrevPos;
+    private float timeSinceLastcall;
 
     public Transform endPointer;
     public LineRenderer lr;
@@ -27,6 +28,15 @@ public class ZoomInZoomOut : MonoBehaviour
     void Update()
     {
         CameraView();
+
+        timeSinceLastcall += Time.deltaTime;
+        if(timeSinceLastcall >= 0.7)
+        {
+            if (mainCamera.orthographicSize > 4 && mainCamera.orthographicSize < 5)
+            {
+                mainCamera.orthographicSize = 4f;
+            }
+        }
     }
 
     private void CameraView()
