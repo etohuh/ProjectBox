@@ -36,9 +36,29 @@ public class CompletionSetRecord : MonoBehaviour
         else if(whatLevel == 2) {
             currentRecordText.text = "current record: " + PlayerPrefs.GetString("level2TimeString");
             yourTimeText.text = "your time: " + counterTimer.textMP.text;
-            print("whatlevel is two poggers");
         }
         else if(whatLevel == 3) {
+            currentRecordText.text = "current record: " + PlayerPrefs.GetString("level3TimeString");
+            yourTimeText.text = "your time: " + counterTimer.textMP.text;
+        }else if(whatLevel == 4) {
+            currentRecordText.text = "current record: " + PlayerPrefs.GetString("level3TimeString");
+            yourTimeText.text = "your time: " + counterTimer.textMP.text;
+        }else if(whatLevel == 5) {
+            currentRecordText.text = "current record: " + PlayerPrefs.GetString("level3TimeString");
+            yourTimeText.text = "your time: " + counterTimer.textMP.text;
+        }else if(whatLevel == 6) {
+            currentRecordText.text = "current record: " + PlayerPrefs.GetString("level3TimeString");
+            yourTimeText.text = "your time: " + counterTimer.textMP.text;
+        }else if(whatLevel == 7) {
+            currentRecordText.text = "current record: " + PlayerPrefs.GetString("level3TimeString");
+            yourTimeText.text = "your time: " + counterTimer.textMP.text;
+        }else if(whatLevel == 8) {
+            currentRecordText.text = "current record: " + PlayerPrefs.GetString("level3TimeString");
+            yourTimeText.text = "your time: " + counterTimer.textMP.text;
+        }else if(whatLevel == 9) {
+            currentRecordText.text = "current record: " + PlayerPrefs.GetString("level3TimeString");
+            yourTimeText.text = "your time: " + counterTimer.textMP.text;
+        }else if(whatLevel == 10) {
             currentRecordText.text = "current record: " + PlayerPrefs.GetString("level3TimeString");
             yourTimeText.text = "your time: " + counterTimer.textMP.text;
         }

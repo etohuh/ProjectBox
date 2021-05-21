@@ -72,24 +72,18 @@ public class ZoomInZoomOut : MonoBehaviour
     public void ShowEnd()
     {
 
-        bool onScreen = endPoint.GetComponent<SpriteRenderer>().isVisible;
-        if (onScreen)
-        {
-            endPoint.GetComponentInChildren<TextMeshPro>().fontSize = 35f;
-        }else if (!onScreen)
-        {
-            lr.enabled = true;
-            lr.SetPosition(0, player.position);
-            lr.SetPosition(1, endPoint.transform.position);
+        
+        lr.enabled = true;
+        lr.SetPosition(0, player.position);
+        lr.SetPosition(1, endPoint.transform.position);
 
-        }
+
 
     }
 
     public void ResetCamera()
     {
         mainCamera.orthographicSize = 4f;
-        endPoint.GetComponentInChildren<TextMeshPro>().fontSize = 10f;
         lr.enabled = false;
     }
 }
