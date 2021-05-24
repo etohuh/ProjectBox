@@ -8,6 +8,8 @@ public class DialogManager : MonoBehaviour
 {
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogText;
+    public LevelLoader lLoader;
+    public AudioSource audioSource;
 
     private Queue<string> sentences;
 
@@ -24,24 +26,16 @@ public class DialogManager : MonoBehaviour
     }
 
     public void StartDialog(Dialog dialog) {
-
         nameText.text = dialog.name;
-
-
         sentences.Clear();
-
-
         
         if(dialog.sentences != null) {
             foreach (string sentence in dialog.sentences) {
                 sentences.Enqueue(sentence);
             }
-        }
-        
+        }       
 
-        DisplayNextSentence();
-
-        
+        DisplayNextSentence();       
     }
     public void DisplayNextSentence() {
         if (sentences.Count == 0) {
@@ -57,12 +51,15 @@ public class DialogManager : MonoBehaviour
     IEnumerator TypeSentence (string sentence) {
         dialogText.text = "";
         foreach (char letter in sentence.ToCharArray()) {
+            audioSource.Play();
+            audioSource.pitch = Random.Range(0.9f, 1.1f);
             dialogText.text += letter;
-            yield return null;
+            yield return new WaitForSeconds(0.05f);
         }
     }
 
     public void EndDialog() {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+        lLoader.LoadLevelWithTransition();
     }
 }

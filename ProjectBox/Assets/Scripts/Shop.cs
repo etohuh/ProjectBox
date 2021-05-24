@@ -24,7 +24,7 @@ public class Shop : MonoBehaviour
 
     public List<ShopItem> ShopItemList;
     [SerializeField] Animator NoMoneyAnim;
-    
+    [SerializeField] AudioSource audioSource;
 
     [SerializeField]GameObject ItemTemplate;
     GameObject g;
@@ -64,8 +64,9 @@ public class Shop : MonoBehaviour
                 //buyBtn = ShopScrollView.GetChild(itemIndex).GetChild(2).GetComponent<Button>();
                 //disable it
                 DisableBuyButton();
-            
-            
+
+            //play sound
+            audioSource.Play();
 
             //change UI text: money
             Buy.Instance.UpdateMoneyUIText();
