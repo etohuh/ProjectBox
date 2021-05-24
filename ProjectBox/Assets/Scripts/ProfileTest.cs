@@ -1,11 +1,13 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Profile : MonoBehaviour
+
+public class ProfileTest : MonoBehaviour
 {
     #region Singleton:Profile
-    public static Profile Instance;
+    public static ProfileTest Instance;
     private void Awake()
     {
         if (Instance == null)
@@ -25,14 +27,16 @@ public class Profile : MonoBehaviour
 
     [SerializeField] GameObject SkinUITemplate;
     [SerializeField] Transform SkinScrollView;
+    
+
 
     GameObject g;
-    int newSelectedIndex, previousSelectedIndex = 0;
+    private int newSelectedIndex, previousSelectedIndex;
 
     [SerializeField] Color ActiveSkinColor;
     [SerializeField] Color DefaultSkinColor;
 
-    [SerializeField] Image CurrentSkin;
+    public Image CurrentSkin;
     private void Start()
     {
         GetAvailableSkins();
@@ -53,7 +57,7 @@ public class Profile : MonoBehaviour
         SelectSkin(newSelectedIndex);
     }
 
-    public void AddSkin (Sprite img)
+    public void AddSkin(Sprite img)
     {
         if (SkinList == null)
             SkinList = new List<Skin>();
@@ -67,7 +71,7 @@ public class Profile : MonoBehaviour
         g.transform.GetChild(0).GetComponent<Image>().sprite = sk.Image;
 
         //add click event
-        g.transform.GetComponent<Button>().AddEventListener(SkinList.Count -1, OnSkinClick);
+        g.transform.GetComponent<Button>().AddEventListener(SkinList.Count - 1, OnSkinClick);
     }
 
     void OnSkinClick(int SkinIndex)
@@ -79,13 +83,21 @@ public class Profile : MonoBehaviour
     {
         previousSelectedIndex = newSelectedIndex;
         newSelectedIndex = SkinIndex;
-        SkinScrollView.GetChild(previousSelectedIndex).GetComponent<Image>().color = DefaultSkinColor ;
-        SkinScrollView.GetChild(newSelectedIndex).GetComponent<Image>().color = ActiveSkinColor ;
+        SkinScrollView.GetChild(previousSelectedIndex).GetComponent<Image>().color = DefaultSkinColor;
+        SkinScrollView.GetChild(newSelectedIndex).GetComponent<Image>().color = ActiveSkinColor;
+
+
 
         //Change skin
 
-        CurrentSkin.sprite = SkinList[newSelectedIndex].Image;        
-    
+        CurrentSkin.sprite = SkinList[newSelectedIndex].Image;
+
     }
-  
+
+
+    void ChangePlayerSKin()
+    {
+       
+
+    }
 }
