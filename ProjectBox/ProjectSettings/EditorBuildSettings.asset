@@ -15,10 +15,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Dialog/Dialog.unity
     guid: 18713b7d6ced5c04292347e3052b50ef
   - enabled: 1
-    path: Assets/Scenes/Gregory/Greg_Level3.unity
+    path: Assets/Scenes/Gregory/GregoryEASY.unity
     guid: 28cfbe311ea14b344b72551674fbc803
   - enabled: 1
-    path: Assets/Scenes/Gregory/Gregory_.unity
+    path: Assets/Scenes/Gregory/GregoryMEDIUM.unity
     guid: 23434ba608f90464988ea0a866dbcac9
   - enabled: 1
     path: Assets/Scenes/SplashScreen.unity

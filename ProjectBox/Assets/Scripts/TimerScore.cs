@@ -115,7 +115,7 @@ public class TimerScore : MonoBehaviour
 
     private void coinsBasedStars()
     {
-        if(stars >= 1 && given2 == false)
+        if(stars >= 1 && given == false)
         {
             pState.coinAmount += coinOneStar;
             given = true;
