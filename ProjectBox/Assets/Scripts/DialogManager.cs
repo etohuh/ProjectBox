@@ -13,6 +13,8 @@ public class DialogManager : MonoBehaviour
 
     private Queue<string> sentences;
 
+    public bool waitForAnimation;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -53,7 +55,15 @@ public class DialogManager : MonoBehaviour
     }
 
     public void EndDialog() {
+        if (!waitForAnimation)
+        {
+            lLoader.LoadLevelWithTransition();
+        }
 
-        lLoader.LoadLevelWithTransition();
+        if (GameObject.Find("WOBBLE") != null)
+        {
+            GameObject.Find("WOBBLE").GetComponent<WobbleCharacters>().startWobble = true;
+        }
+        waitForAnimation = false;
     }
 }
