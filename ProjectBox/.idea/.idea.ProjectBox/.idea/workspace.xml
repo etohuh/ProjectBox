@@ -3,16 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b2450bb3-591c-4942-bff1-1cf7059d8574" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dialog/Dialog.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dialog/Dialog.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dialog/Dialog2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dialog/Dialog2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dialog/DialogFINAL.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dialog/DialogFINAL.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryEASY.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryEASY.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryHARD.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryHARD.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Zacharias/Shop test level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Zacharias/Shop test level.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SSkinInfo.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SSkinInfo.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tayx/Graphy - Ultimate Stats Monitor/Materials/FPS_Graph.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tayx/Graphy - Ultimate Stats Monitor/Materials/FPS_Graph.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NewLevelRequired/UI_CANVAS.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/NewLevelRequired/UI_CANVAS.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +15,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMPro_UGUI_Private.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.3.2/Runtime/Camera/FreeCamera.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">

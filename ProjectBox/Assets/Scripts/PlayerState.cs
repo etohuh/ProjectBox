@@ -21,6 +21,8 @@ public class PlayerState : MonoBehaviour
     public GravityController gravController;
     [SerializeField] private AudioSource audioSource;
 
+    [SerializeField] private CompletionRestartLevel restart;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -43,9 +45,17 @@ public class PlayerState : MonoBehaviour
         if(isAlive)
         {
             audioSource.Play();
-            deathUI.SetActive(true);
-            Time.timeScale = 0;
-            //Respawn();         
+            if (PlayerPrefs.GetInt("RespawnPref") == -1)
+            {
+                deathUI.SetActive(true);
+                Time.timeScale = 0;
+            }
+            else
+            {
+                restart.CompletionRestart();
+            }
+            
+      
         }           
     }
 
