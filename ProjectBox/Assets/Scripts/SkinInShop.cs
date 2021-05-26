@@ -53,6 +53,7 @@ public class SkinInShop : MonoBehaviour
                 isSkinUnlocked = true;
                 PlayerPrefs.SetInt(skinInfo.skinID.ToString(), 1);
                 buttonText.text = "Equip";
+                
             }
             else
             {
