@@ -1,10 +1,9 @@
 fileFormatVersion: 2
-guid: 7dd890c6768303641a4e2c5056d62862
+guid: 94d8830147904644fa0fb257e1e391e7
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - skinSprite: {instanceID: 0}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

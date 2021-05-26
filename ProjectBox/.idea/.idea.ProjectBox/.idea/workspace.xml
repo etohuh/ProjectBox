@@ -3,66 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="b2450bb3-591c-4942-bff1-1cf7059d8574" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelSelect.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelSelect.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/playerMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/playerMaterial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/tileMatUNLIT.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/tileMatUNLIT.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/tileMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/tileMaterial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Physics Material 2D.physicsMaterial2D" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Physics Material 2D.physicsMaterial2D.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PARTICLEMAT.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PARTICLEMAT.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NewLevelRequired/Global Volume.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NewLevelRequired/Global Volume.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NewLevelRequired/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/NewLevelRequired/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NewLevelRequired/UI_CANVAS.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/NewLevelRequired/UI_CANVAS.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RotateOrbs.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RotateOrbs.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dialog/Dialog.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dialog/Dialog.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dialog/Dialog2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dialog/Dialog2.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dialog/DialogFINAL.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dialog/DialogFINAL.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/Greg_Level3.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/Greg_Level3.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryEASY.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryEASY.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryHARD.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryHARD.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryTEST.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryTEST.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/Gregory_.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/Gregory_.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MarcusLevel2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MarcusLevel2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CompletionRestartLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CompletionRestartLevel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CompletionSetRecord.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CompletionSetRecord.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Zacharias/Shop test level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Zacharias/Shop test level.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogTrigger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game_Observer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game_Observer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GravityController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GravityController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PauseMenuRestartLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PauseMenuRestartLevel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Quest_Next_Level.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Quest_Next_Level.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TestingJump.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TestingJump.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TimerScore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TimerScore.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TravelLine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TravelLine.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SelectLevel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SelectLevel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/playerShader.shadergraph" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/playerShader.shadergraph.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/tileShader.shadergraph" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/tileShader.shadergraph.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/tileUNLIT.shadergraph" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/tileUNLIT.shadergraph.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Checkpoint_HIDDEN.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Checkpoint_HIDDEN.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Checkpoint_OPEN.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Checkpoint_OPEN.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Checkpoint_SHEET.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Checkpoint_SHEET.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Grind.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Grind.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/playerSprite.psd" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/playerSprite.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/playerSprite.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/playerSprite.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SSkinInfo.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SSkinInfo.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tayx/Graphy - Ultimate Stats Monitor/Materials/FPS_Graph.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tayx/Graphy - Ultimate Stats Monitor/Materials/FPS_Graph.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,8 +24,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.3.2/Runtime/Camera/FreeCamera.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -102,6 +50,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Game_Observer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Quest_Next_Level.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DialogTrigger.cs" />
+      <option value="$PROJECT_DIR$/Assets/WobbleCharacters.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DialogManager.cs" />
     </changedPaths>
   </component>
@@ -156,6 +105,8 @@
       <workItem from="1621541158415" duration="1369000" />
       <workItem from="1621610676173" duration="1765000" />
       <workItem from="1621841829596" duration="12274000" />
+      <workItem from="1621968288721" duration="519000" />
+      <workItem from="1622016762809" duration="2206000" />
     </task>
     <servers />
   </component>
