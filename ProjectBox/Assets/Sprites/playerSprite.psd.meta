@@ -136,7 +136,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures:
-    - texture: {instanceID: 0}
+    - texture: {fileID: 2800000, guid: da3438a5f11163e4fbd7e85d0aa5f607, type: 3}
       name: _Emission
   spritePackingTag: 
   pSDRemoveMatte: 0
