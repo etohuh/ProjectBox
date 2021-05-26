@@ -10,7 +10,6 @@ public class PauseMenu : MonoBehaviour
     void Start()
     {
         canvas.SetActive(false);
-        
     }
   
     
@@ -26,7 +25,6 @@ public class PauseMenu : MonoBehaviour
     }
 
     public void PauseGame() {
-        gameObject.SetActive(false);
         if (Time.timeScale == 1) {
             Time.timeScale = 0;
             canvas.SetActive(true);
