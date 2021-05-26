@@ -7,18 +7,6 @@ public class CompletionRestartLevel : MonoBehaviour
 {
     [SerializeField] private GameObject deathUI;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void CompletionRestart() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         Time.timeScale = 1;
