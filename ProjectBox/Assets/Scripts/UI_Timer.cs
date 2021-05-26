@@ -33,4 +33,14 @@ public class UI_Timer : MonoBehaviour {
         }
         timeSpanCompare = (float)timePlaying.TotalSeconds;
     }
+
+    public bool getTimerOn()
+    {
+        return timerOn;
+    }
+    public float getTimer()
+    {
+        return timer;
+    }
+     
 }
