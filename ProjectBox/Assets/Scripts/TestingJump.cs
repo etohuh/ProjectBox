@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,16 +11,22 @@ public class TestingJump : MonoBehaviour
     Vector3 distanceVector;
     Vector3 dragPoint;
     public Rigidbody2D rb;
-    public float launchForce;
     private bool isGrounded = false;
     public float maxJumpforce;
-    void Start()
+
+    public GameObject spriteEyes;
+    private bool prevGrounded;
+
+
+    private void Start()
     {
+        spriteEyes.GetComponent<Animator>().ResetTrigger("grow");
+        spriteEyes.GetComponent<Animator>().ResetTrigger("shrink");
         
     }
 
-    // Update is called once per frame
-    void Update() {
+    void Update()
+    {
 
         if (Input.GetButtonDown("Fire1") && mainCamera.orthographicSize == 4f) {
             if (isGrounded) {
@@ -35,6 +42,7 @@ public class TestingJump : MonoBehaviour
                 distanceVector = dragPoint - mainCamera.ScreenToWorldPoint(Input.mousePosition);
                 tLine.DrawLine(transform, distanceVector);
                 tLine.EnableLine();
+                
             }
 
         }
@@ -47,12 +55,20 @@ public class TestingJump : MonoBehaviour
             dragPoint = Vector3.zero;
 
         }
-
+        
+        
+        if (isGrounded && !prevGrounded)
+        {
+            spriteEyes.GetComponent<Animator>().SetTrigger("grow");
+        }
+        prevGrounded = isGrounded;
+        
 
     }
 
     void LaunchPlayer() {
         rb.AddForce(Vector3.ClampMagnitude(distanceVector, maxJumpforce) * 8, ForceMode2D.Impulse);
+        
     }
 
 
@@ -61,13 +77,18 @@ public class TestingJump : MonoBehaviour
         if (collision.gameObject.CompareTag("ground"))
         {
             isGrounded = true;
+            
         }
        
     }
+    
+    
 
     private void OnCollisionExit2D(Collision2D collision) {
         if (collision.gameObject.CompareTag("ground")) {
             isGrounded = false;
+            spriteEyes.GetComponent<Animator>().SetTrigger("shrink");
+
         }
     }
 
