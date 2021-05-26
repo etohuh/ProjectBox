@@ -12,16 +12,16 @@ public class TimerScore : MonoBehaviour
 
     [SerializeField] private GameObject normalTimer;
     [SerializeField] private GameObject player;
-    
+
     private UI_Timer uiTimer;
     private int stars, coins;
     //public PlayerPrefs pPrefs;
     private float whatLevel;
     private float record;
 
-    private bool given = false , given2 = false, given3 = false;
-    
-    
+    private bool given = false, given2 = false, given3 = false;
+
+
     private PlayerState pState;
 
     private void Start()
@@ -36,26 +36,26 @@ public class TimerScore : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
 
 
-            print("Hejhej");
-            print("record is: " + record);
 
-            if ( uiTimer.timer <= timeForThreeStar/* && uiTimer.timer < timeForTwoStar && uiTimer.timer < timeForOneStar*/)
-            {
-                stars = 3;
-            }
-            else if ( uiTimer.timer <= timeForTwoStar && uiTimer.timer > timeForThreeStar/* && uiTimer.timer < timeForOneStar*/)
-            {
-                stars = 2;
-            }
-            else if ( uiTimer.timer >= timeForOneStar && uiTimer.timer > timeForTwoStar && uiTimer.timer > timeForThreeStar)
-            {
-                stars = 1;
-            }
+        print("Hejhej");
+        print("record is: " + record);
 
-            coinsBasedStars();
+        if (uiTimer.timer <= timeForThreeStar/* && uiTimer.timer < timeForTwoStar && uiTimer.timer < timeForOneStar*/)
+        {
+            stars = 3;
+        }
+        else if (uiTimer.timer <= timeForTwoStar && uiTimer.timer > timeForThreeStar/* && uiTimer.timer < timeForOneStar*/)
+        {
+            stars = 2;
+        }
+        else if (uiTimer.timer >= timeForOneStar && uiTimer.timer > timeForTwoStar && uiTimer.timer > timeForThreeStar)
+        {
+            stars = 1;
+        }
+
+        coinsBasedStars();
     }
 
     private void compare()
@@ -67,7 +67,7 @@ public class TimerScore : MonoBehaviour
             given2 = true;
             given = true;
         }
-        if(record <= timeForTwoStar && given3 == false && timeForThreeStar < record)
+        if (record <= timeForTwoStar && given3 == false && timeForThreeStar < record)
         {
             given2 = true;
             given = true;
@@ -76,7 +76,7 @@ public class TimerScore : MonoBehaviour
         {
             given = true;
         }
-        
+
     }
 
     private void setRecord()
@@ -123,29 +123,29 @@ public class TimerScore : MonoBehaviour
         {
             record = PlayerPrefs.GetFloat("level10TimeString");
         }
-        
 
-        
+
+
     }
 
     private void coinsBasedStars()
     {
 
-            if (stars >= 1 && given == false)
-            {
-                pState.coinAmount += coinOneStar;
-                given = true;
-            }
-            if (stars >= 2 && given2 == false)
-            {
-                pState.coinAmount += coinTwoStar;
-                given2 = true;
-            }
-            if (stars >= 3 && given3 == false)
-            {
-                pState.coinAmount += coinThreeStar;
-                given3 = true;
-            }
+        if (stars >= 1 && given == false)
+        {
+            pState.coinAmount += coinOneStar;
+            given = true;
+        }
+        if (stars >= 2 && given2 == false)
+        {
+            pState.coinAmount += coinTwoStar;
+            given2 = true;
+        }
+        if (stars >= 3 && given3 == false)
+        {
+            pState.coinAmount += coinThreeStar;
+            given3 = true;
+        }
 
     }
 
