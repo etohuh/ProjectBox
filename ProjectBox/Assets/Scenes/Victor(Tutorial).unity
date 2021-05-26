@@ -147,6 +147,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 890363527}
     - target: {fileID: 6913275767946567751, guid: 3034ac2685138cd4487bc8586e2a9c09, type: 3}
+      propertyPath: deathUI
+      value: 
+      objectReference: {fileID: 592443818}
+    - target: {fileID: 6913275767946567751, guid: 3034ac2685138cd4487bc8586e2a9c09, type: 3}
       propertyPath: startingPos
       value: 
       objectReference: {fileID: 248869027}
@@ -349,6 +353,7 @@ MonoBehaviour:
   recordTextLevel9: {fileID: 731374847}
   recordTextLevel10: {fileID: 679940889}
   levelSelect: {fileID: 406982232}
+  deathUI: {fileID: 0}
 --- !u!1001 &79961427
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -627,6 +632,14 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 240701655, guid: 211c89b996db02340acadb32574657bf, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 123019028}
+    - target: {fileID: 240701655, guid: 211c89b996db02340acadb32574657bf, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Respawn
+      objectReference: {fileID: 0}
     - target: {fileID: 271340742, guid: 211c89b996db02340acadb32574657bf, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -659,6 +672,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1614834969, guid: 211c89b996db02340acadb32574657bf, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1842438702, guid: 211c89b996db02340acadb32574657bf, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -678,6 +695,14 @@ PrefabInstance:
     - target: {fileID: 1891123174, guid: 211c89b996db02340acadb32574657bf, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: LevelSelect, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6353241885633742277, guid: 211c89b996db02340acadb32574657bf, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6353241886971670328, guid: 211c89b996db02340acadb32574657bf, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8700604013396500918, guid: 211c89b996db02340acadb32574657bf, type: 3}
       propertyPath: m_Name
@@ -1311,6 +1336,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &592443818 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1614834968, guid: 211c89b996db02340acadb32574657bf, type: 3}
+  m_PrefabInstance: {fileID: 149157257}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &608800354
 GameObject:
   m_ObjectHideFlags: 0
@@ -1436,7 +1466,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: 9361b18c2d43c384597fe474124fb89f, type: 2}
+  sharedProfile: {fileID: 0}
 --- !u!1001 &620096398
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19887,7 +19917,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: 3d6a38caae26d6c4a8bb22a5014c156e, type: 2}
+  sharedProfile: {fileID: 0}
 --- !u!4 &1863450093
 Transform:
   m_ObjectHideFlags: 0
