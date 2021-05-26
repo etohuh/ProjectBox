@@ -30,7 +30,7 @@ public class Shop : MonoBehaviour
     GameObject g;
     [SerializeField] Transform ShopScrollView;
     [SerializeField] GameObject ShopPanel;
-    public Button buyBtn;
+    Button buyBtn;
 
     void Start()
     {        
@@ -50,19 +50,16 @@ public class Shop : MonoBehaviour
         
     }
 
-    //when the "buy" button is clicked
     void OnShopItemBtnClicked(int itemIndex)
     {
         if (Buy.Instance.HasEnoughMoney(ShopItemList[itemIndex].Price))
         {
             Buy.Instance.UseMoney(ShopItemList[itemIndex].Price);
             //purchase Item
-            //ShopItemList[itemIndex].IsPurchased = true;
+            ShopItemList[itemIndex].IsPurchased = true;
 
-            //disable the button
-                //find the button to disable
-                //buyBtn = ShopScrollView.GetChild(itemIndex).GetChild(2).GetComponent<Button>();
-                //disable it
+            //disable the button      
+                buyBtn = ShopScrollView.GetChild(itemIndex).GetChild(2).GetComponent<Button>();
                 DisableBuyButton();
 
             //play sound
@@ -72,8 +69,7 @@ public class Shop : MonoBehaviour
             Buy.Instance.UpdateMoneyUIText();
 
             //add skin
-            //Profile.Instance.AddSkin(ShopItemList[itemIndex].Image); 
-            
+            Profile.Instance.AddSkin(ShopItemList[itemIndex].Image);            
         }
         else
         {
@@ -82,7 +78,7 @@ public class Shop : MonoBehaviour
         }
     }
 
-    public void DisableBuyButton()
+    void DisableBuyButton()
     {
         buyBtn.interactable = false;
         buyBtn.transform.GetChild(0).GetComponent<Text>().text = "PURCHASED";

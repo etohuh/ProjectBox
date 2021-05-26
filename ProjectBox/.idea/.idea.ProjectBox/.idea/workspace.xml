@@ -3,13 +3,45 @@
   <component name="ChangeListManager">
     <list default="true" id="b2450bb3-591c-4942-bff1-1cf7059d8574" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CHECKPOINT.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CHECKPOINT.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CHECKPOINT.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CHECKPOINT.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LaserZon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LaserZon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LazerGunBeam.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LazerGunBeam.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelSelect.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelSelect.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NewLevelRequired/UI_CANVAS.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/NewLevelRequired/UI_CANVAS.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryEASY.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryEASY.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryHARD.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryHARD.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Zacharias/Shop.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Zacharias/Shop.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SkinLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SkinLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skins/Pink.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skins/Pink.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dialog.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dialog.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dialog2.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dialog2.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Greg_Level3.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Greg_Level3.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/Global Volume (1) Profile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/Global Volume (1) Profile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/Global Volume Profile 1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/Global Volume Profile 1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/Global Volume Profile 2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/Global Volume Profile 2.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/Global Volume Profile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/Global Volume Profile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GregoryTEST.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GregoryTEST.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory_.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory_.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BottomCollision.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BottomCollision.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollisionFollow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollisionFollow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CompletionSetRecord.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CompletionSetRecord.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LeftCollision.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LeftCollision.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RightCollision.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RightCollision.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TopCollision.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TopCollision.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ZoomInZoomOut.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ZoomInZoomOut.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SamlingSpriteMap.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/SamlingSpriteMap.psd.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
@@ -22,37 +54,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMPro_UGUI_Private.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.3.2/Runtime/Camera/FreeCamera.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RotateOrbs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SelectLevel.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/GravityController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Killbox.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/TestingJump.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Checkpoint.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelSelector.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PageSwiper.cs" />
       <option value="$PROJECT_DIR$/Assets/LevelSelect.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DialogManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Quest_Next_Level.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CompletionNextLevel.cs" />
       <option value="$PROJECT_DIR$/Assets/SelectLevel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CompletionSetRecord.cs" />
+      <option value="$PROJECT_DIR$/Assets/RotateOrbs.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ZoomInZoomOut.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LaserShotTravel.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerState.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/TimerScore.cs" />
-      <option value="$PROJECT_DIR$/Assets/RotateOrbs.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenuRestartLevel.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/TestingJump.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GravityController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/TravelLine.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/CompletionRestartLevel.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/CompletionSetRecord.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Game_Observer.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Quest_Next_Level.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DialogTrigger.cs" />
-      <option value="$PROJECT_DIR$/Assets/WobbleCharacters.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DialogManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/SkinLoader.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/SkinManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sJkA9olFL1OZQghnA0L5x56dqx" />
@@ -104,10 +126,6 @@
       <workItem from="1621257751011" duration="9464000" />
       <workItem from="1621418300894" duration="3980000" />
       <workItem from="1621541158415" duration="1369000" />
-      <workItem from="1621610676173" duration="1765000" />
-      <workItem from="1621841829596" duration="12274000" />
-      <workItem from="1621968288721" duration="519000" />
-      <workItem from="1622016762809" duration="3916000" />
     </task>
     <servers />
   </component>
