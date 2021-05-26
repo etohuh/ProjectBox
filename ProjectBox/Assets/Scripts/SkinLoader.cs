@@ -6,7 +6,7 @@ public class SkinLoader : MonoBehaviour
 {
     public SpriteRenderer playerSR;
 
-    private void Awake()
+    private void Start()
     {
         playerSR.sprite = SkinManager.equippedSkin;
     }
