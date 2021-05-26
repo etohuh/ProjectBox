@@ -39,12 +39,7 @@ public class PlayerState : MonoBehaviour
         SetRespawnPos(startingPos);
 
     }
-
-    // Update is called once per frame
-    void Update()
-    {       
-
-    }
+    
 
     public void KillPlayer() 
     {
@@ -73,10 +68,7 @@ public class PlayerState : MonoBehaviour
     public void SetRespawnPos(Transform position) {
         respawnPos = position;
     }
-
-    //public void SetGravity(Vector3 gravityVector) {
-    //gameObject.GetComponent<TestingJump>().gravityVector = gravityVector;
-    //}
+    
 
 
 }

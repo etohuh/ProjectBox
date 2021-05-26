@@ -4,17 +4,7 @@ using UnityEngine;
 
 public class TravelLine : MonoBehaviour
 {
-    public float maxMagnitude;
     public LineRenderer lRenderer;
-
-    void Start()
-    {
-        
-    }
-    void Update()
-    {
-        
-    }
 
     public void EnableLine() {
         lRenderer.enabled = true;

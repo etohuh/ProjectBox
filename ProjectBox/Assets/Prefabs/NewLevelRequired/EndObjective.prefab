@@ -11,11 +11,13 @@ GameObject:
   - component: {fileID: 6629621055547597464}
   - component: {fileID: 6629621055547597470}
   - component: {fileID: 6629621055547597471}
+  - component: {fileID: 3914918153894183172}
   - component: {fileID: 6629621055547597465}
+  - component: {fileID: 2096808803}
   m_Layer: 0
   m_Name: EndObjective
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -72,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 5
   m_Sprite: {fileID: 2747690628134850419, guid: a9716c16a44a94eed9b5c90fbf4d9bdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -110,6 +112,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.3009644, y: 1.203846}
   m_EdgeRadius: 0
+--- !u!114 &3914918153894183172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6629621055547597466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96ad2c9c3f5ebbd489073dfcc1888288, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeForOneStar: 0
+  timeForTwoStar: 0
+  timeForThreeStar: 0
+  coinOneStar: 0
+  coinTwoStar: 0
+  coinThreeStar: 0
+  normalTimer: {fileID: 0}
+  player: {fileID: 0}
 --- !u!114 &6629621055547597465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,6 +148,23 @@ MonoBehaviour:
   timer: {fileID: 0}
   recordScript: {fileID: 0}
   playerState: {fileID: 0}
-  whatLevel: 0
-  levelComplete: 0
-  coinRequired: 0
+--- !u!114 &2096808803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6629621055547597466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96ad2c9c3f5ebbd489073dfcc1888288, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeForOneStar: 15
+  timeForTwoStar: 10
+  timeForThreeStar: 5
+  coinOneStar: 1
+  coinTwoStar: 1
+  coinThreeStar: 1
+  normalTimer: {fileID: 0}
+  player: {fileID: 0}
