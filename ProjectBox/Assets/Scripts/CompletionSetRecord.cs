@@ -13,7 +13,7 @@ public class CompletionSetRecord : MonoBehaviour
 
     public UI_Timer counterTimer;
 
-    private float whatLevel;
+    private int whatLevel;
 
     public bool newRecord = false;
     // Start is called before the first frame update
@@ -29,48 +29,52 @@ public class CompletionSetRecord : MonoBehaviour
 
         whatLevel = SceneManager.GetActiveScene().buildIndex;
 
-        if (whatLevel == 1) {
-            currentRecordText.text = "current record: " + PlayerPrefs.GetString("level1TimeString");
-            yourTimeText.text = "your time: " + counterTimer.textMP.text;
-        }
-        else if(whatLevel == 2) {
-            currentRecordText.text = "current record: " + PlayerPrefs.GetString("level2TimeString");
-            yourTimeText.text = "your time: " + counterTimer.textMP.text;
-        }
-        else if(whatLevel == 3) {
-            currentRecordText.text = "current record: " + PlayerPrefs.GetString("level3TimeString");
-            yourTimeText.text = "your time: " + counterTimer.textMP.text;
-        }else if(whatLevel == 4) {
-            currentRecordText.text = "current record: " + PlayerPrefs.GetString("level3TimeString");
-            yourTimeText.text = "your time: " + counterTimer.textMP.text;
-        }else if(whatLevel == 5) {
-            currentRecordText.text = "current record: " + PlayerPrefs.GetString("level3TimeString");
-            yourTimeText.text = "your time: " + counterTimer.textMP.text;
-        }else if(whatLevel == 6) {
-            currentRecordText.text = "current record: " + PlayerPrefs.GetString("level3TimeString");
-            yourTimeText.text = "your time: " + counterTimer.textMP.text;
-        }else if(whatLevel == 7) {
-            currentRecordText.text = "current record: " + PlayerPrefs.GetString("level3TimeString");
-            yourTimeText.text = "your time: " + counterTimer.textMP.text;
-        }else if(whatLevel == 8) {
-            currentRecordText.text = "current record: " + PlayerPrefs.GetString("level3TimeString");
-            yourTimeText.text = "your time: " + counterTimer.textMP.text;
-        }else if(whatLevel == 9) {
-            currentRecordText.text = "current record: " + PlayerPrefs.GetString("level3TimeString");
-            yourTimeText.text = "your time: " + counterTimer.textMP.text;
-        }else if(whatLevel == 10) {
-            currentRecordText.text = "current record: " + PlayerPrefs.GetString("level3TimeString");
-            yourTimeText.text = "your time: " + counterTimer.textMP.text;
+        switch (whatLevel)
+        {
+            case 1:
+                currentRecordText.text = "current record: " + PlayerPrefs.GetString("level1TimeString");
+                yourTimeText.text = "your time: " + counterTimer.textMP.text;
+                break;
+            case 2:
+                currentRecordText.text = "current record: " + PlayerPrefs.GetString("level2TimeString");
+                yourTimeText.text = "your time: " + counterTimer.textMP.text;
+                break;
+            case 3:
+                currentRecordText.text = "current record: " + PlayerPrefs.GetString("level3TimeString");
+                yourTimeText.text = "your time: " + counterTimer.textMP.text;
+                break;
+            case 4:
+                currentRecordText.text = "current record: " + PlayerPrefs.GetString("level4TimeString");
+                yourTimeText.text = "your time: " + counterTimer.textMP.text;
+                break;
+            case 5:
+                currentRecordText.text = "current record: " + PlayerPrefs.GetString("level5TimeString");
+                yourTimeText.text = "your time: " + counterTimer.textMP.text;
+                break;
+            case 6:
+                currentRecordText.text = "current record: " + PlayerPrefs.GetString("level6TimeString");
+                yourTimeText.text = "your time: " + counterTimer.textMP.text;
+                break;
+            case 7:
+                currentRecordText.text = "current record: " + PlayerPrefs.GetString("level7TimeString");
+                yourTimeText.text = "your time: " + counterTimer.textMP.text;
+                break;
+            case 8:
+                currentRecordText.text = "current record: " + PlayerPrefs.GetString("level8TimeString");
+                yourTimeText.text = "your time: " + counterTimer.textMP.text;
+                break;
+            case 9:
+                currentRecordText.text = "current record: " + PlayerPrefs.GetString("level9TimeString");
+                yourTimeText.text = "your time: " + counterTimer.textMP.text;
+                break;
+            case 10:
+                currentRecordText.text = "current record: " + PlayerPrefs.GetString("level10TimeString");
+                yourTimeText.text = "your time: " + counterTimer.textMP.text;
+                break;
+
         }
 
-
-        if (newRecord) {
-            textRecordObject.SetActive(true);
-            
-        }
-        else {
-            textRecordObject.SetActive(false);
-        }
+        textRecordObject.SetActive(newRecord);
         newRecord = false;
     }
 }
