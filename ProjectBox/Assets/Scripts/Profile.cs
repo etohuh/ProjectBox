@@ -13,7 +13,7 @@ public class Profile : MonoBehaviour
         else
             Destroy(gameObject);
     }
-    #endregion  
+    #endregion
 
     public class Skin
     {
@@ -27,7 +27,7 @@ public class Profile : MonoBehaviour
     [SerializeField] Transform SkinScrollView;
 
     GameObject g;
-    int newSelectedIndex, previousSelectedIndex = 0;
+    int newSelectedIndex, previousSelectedIndex;
 
     [SerializeField] Color ActiveSkinColor;
     [SerializeField] Color DefaultSkinColor;
@@ -75,7 +75,7 @@ public class Profile : MonoBehaviour
         SelectSkin(SkinIndex);
     }
 
-    public void SelectSkin(int SkinIndex)
+    void SelectSkin(int SkinIndex)
     {
         previousSelectedIndex = newSelectedIndex;
         newSelectedIndex = SkinIndex;
@@ -84,8 +84,6 @@ public class Profile : MonoBehaviour
 
         //Change skin
 
-        CurrentSkin.sprite = SkinList[newSelectedIndex].Image;        
-    
+        CurrentSkin.sprite = SkinList[newSelectedIndex].Image;
     }
-  
 }

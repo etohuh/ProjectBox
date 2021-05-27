@@ -5,15 +5,14 @@ using UnityEngine;
 public class DialogTrigger : MonoBehaviour
 {
     public Dialog dialog;
-    public GameObject dialogCanvas;
 
     private void Start() {
         TriggerDialog();
     }
 
     public void TriggerDialog() {
-        Time.timeScale = 1;
-        dialogCanvas.SetActive(true);
+        //Time.timeScale = 0;
+        print("working");
         FindObjectOfType<DialogManager>().StartDialog(dialog);
     }
 }

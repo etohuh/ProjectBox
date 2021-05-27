@@ -15,21 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Dialog/Dialog.unity
     guid: 18713b7d6ced5c04292347e3052b50ef
   - enabled: 1
-    path: Assets/Scenes/Gregory/GregoryEASY.unity
+    path: Assets/Scenes/Gregory/Greg_Level3.unity
     guid: 28cfbe311ea14b344b72551674fbc803
   - enabled: 1
-    path: Assets/Scenes/Gregory/GregoryMEDIUM.unity
+    path: Assets/Scenes/Gregory/Gregory_.unity
     guid: 23434ba608f90464988ea0a866dbcac9
   - enabled: 1
     path: Assets/Scenes/SplashScreen.unity
     guid: 8dd1c74c5874b51439559c49f84b18e5
-  - enabled: 1
-    path: Assets/Scenes/Zacharias/Prototype Shop.unity
-    guid: 39fa775e1214af246b47df7cdbedce91
-  - enabled: 1
-    path: Assets/Scenes/Zacharias/Shop.unity
-    guid: d45ab14798191424e864063fac4a5306
-  - enabled: 1
-    path: Assets/Scenes/Zacharias/Shop test level.unity
-    guid: fed5acac4ee13614a950ee775a4c18e9
   m_configObjects: {}

@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class GravityController : MonoBehaviour
 {
-    private Rigidbody2D rb;
-    
-    public Transform playerEyes;
-    
     public float gravityconst = 15f;
 
-    private Vector3 gravityVector;
+
+    public GameObject gObject;
+
+    public Vector3 gravityVector;
+    public Rigidbody2D rb;
     private Vector3 directionVector;
 
     public bool leftGravity;
@@ -18,11 +18,10 @@ public class GravityController : MonoBehaviour
     public bool topGravity;
     public bool bottomGravity;
 
-    
+    public Transform playerSprite;
 
     void Start()
     {
-        rb = gameObject.GetComponent<Rigidbody2D>();
         gravityVector = new Vector3(0, -gravityconst, 0);
 
     }
@@ -31,17 +30,17 @@ public class GravityController : MonoBehaviour
     private void Update() {
         if (leftGravity) {
             gravityVector = new Vector3(-gravityconst, 0, 0);
-            playerEyes.rotation = Quaternion.Euler(0, 0, -90);
+            playerSprite.rotation = Quaternion.Euler(0, 0, -90);
         }else if (rightGravity) {
             gravityVector = new Vector3(gravityconst, 0, 0);
-            playerEyes.rotation = Quaternion.Euler(0, 0, 90);
+            playerSprite.rotation = Quaternion.Euler(0, 0, 90);
         }else if (topGravity) {
             gravityVector = new Vector3(0, gravityconst, 0);
-            playerEyes.rotation = Quaternion.Euler(0, 0, -180);
+            playerSprite.rotation = Quaternion.Euler(0, 0, -180);
         }
         else if (bottomGravity) {
             gravityVector = new Vector3(0, -gravityconst, 0);
-            playerEyes.rotation = Quaternion.Euler(0, 0, 0);
+            playerSprite.rotation = Quaternion.Euler(0, 0, 0);
         }
     }
 
@@ -60,7 +59,7 @@ public class GravityController : MonoBehaviour
 
     public void ResetGravity() {
         ResetBools();
-        playerEyes.rotation = Quaternion.Euler(0, 0, 0);
+        playerSprite.rotation = Quaternion.Euler(0, 0, 0);
         gravityVector = new Vector3(0, -gravityconst, 0);
     }
 

@@ -18,7 +18,13 @@ public class DialogManager : MonoBehaviour
     {
         sentences = new Queue<string>();
     }
-    
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
     public void StartDialog(Dialog dialog) {
         nameText.text = dialog.name;
         sentences.Clear();

@@ -8,12 +8,6 @@ TextureImporter:
   - first:
       213: 4864267218594275710
     second: Grind_1
-  - first:
-      213: 7934147783864334540
-    second: Grind_2
-  - first:
-      213: -5259499167278154701
-    second: Grind_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -58,7 +52,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 512
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -171,7 +165,7 @@ TextureImporter:
         width: 482
         height: 380
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -189,10 +183,10 @@ TextureImporter:
         serializedVersion: 2
         x: 528
         y: 65
-        width: 78
+        width: 482
         height: 380
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -200,48 +194,6 @@ TextureImporter:
       bones: []
       spriteID: e71a3e86349518340800000000000000
       internalID: 4864267218594275710
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grind_2
-      rect:
-        serializedVersion: 2
-        x: 932
-        y: 65
-        width: 78
-        height: 380
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc8bfac5f51cb1e60800000000000000
-      internalID: 7934147783864334540
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grind_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 66
-        width: 324
-        height: 380
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 33c3ce59f518207b0800000000000000
-      internalID: -5259499167278154701
       vertices: []
       indices: 
       edges: []
