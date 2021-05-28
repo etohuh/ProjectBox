@@ -267,7 +267,10 @@ MonoBehaviour:
   go: {fileID: 5386390390990038254}
   skinBuyButton: {fileID: 5386390391405980978}
   isSkinUnlocked: 0
+  avatarSprite: {fileID: 0}
   NoMoneyAnim: {fileID: 0}
+  audioSource: {fileID: 0}
+  cashRegister: {fileID: 8300000, guid: 125e8cd4010fdd44cb01dc114644bfcf, type: 3}
 --- !u!1 &5386390391175018749
 GameObject:
   m_ObjectHideFlags: 0

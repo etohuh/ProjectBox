@@ -12,6 +12,7 @@ public class PlayerMoney : MonoBehaviour
     private void Start()
     {
         UpdateMoneyUIText();
+        playerMoney = PlayerPrefs.GetInt("CoinAmount");
     }
 
     public bool TryRemoveMoney(int moneyToRemove)
@@ -19,7 +20,9 @@ public class PlayerMoney : MonoBehaviour
         if (playerMoney >= moneyToRemove)
         {
             playerMoney -= moneyToRemove;
+            PlayerPrefs.SetInt("CoinAmount", playerMoney);
             return true;
+            
         }
         else
         {
@@ -31,7 +34,7 @@ public class PlayerMoney : MonoBehaviour
     {
         for (int i = 0; i < moneyUIText.Length; i++)
         {
-            moneyUIText[i].text = playerMoney.ToString();
+            moneyUIText[i].text = PlayerPrefs.GetInt("CoinAmount").ToString();
         }
     }
 }
