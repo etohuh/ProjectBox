@@ -3,9 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="b2450bb3-591c-4942-bff1-1cf7059d8574" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CHECKPOINT.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CHECKPOINT.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NewLevelRequired/UI_CANVAS.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/NewLevelRequired/UI_CANVAS.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SettingsUI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SettingsUI.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryEASY.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryEASY.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChangeVolumeSlider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChangeVolumeSlider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryHARD.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryHARD.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryMEDIUM.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryMEDIUM.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Ivan_mainmenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Ivan_mainmenu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Checkpoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Checkpoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VolumeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VolumeController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +35,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/CurrencyManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMPro_UGUI_Private.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/VolumeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChangeMusicVolume.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.3.2/Runtime/Camera/FreeCamera.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -55,7 +63,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/TestingJump.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/TimerScore.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Quest_Next_Level.cs" />
-      <option value="$PROJECT_DIR$/Assets/VolumeController.cs" />
       <option value="$PROJECT_DIR$/Assets/CurrenyManager.cs" />
       <option value="$PROJECT_DIR$/Assets/CurrencyManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ToggleAutoRespawn.cs" />
@@ -64,8 +71,11 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/SkinLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CompletionNextLevel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Checkpoint.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ChangeVolumeSlider.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ChangeMusicVolume.cs" />
+      <option value="$PROJECT_DIR$/Assets/VolumeController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Checkpoint.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sJkA9olFL1OZQghnA0L5x56dqx" />
