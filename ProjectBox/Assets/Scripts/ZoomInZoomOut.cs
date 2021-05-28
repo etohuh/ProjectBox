@@ -32,7 +32,7 @@ public class ZoomInZoomOut : MonoBehaviour
         timeSinceLastcall += Time.deltaTime;
         if(timeSinceLastcall >= 0.7)
         {
-            if (mainCamera.orthographicSize > 4 && mainCamera.orthographicSize < 5)
+            if (mainCamera.orthographicSize > 4 && mainCamera.orthographicSize < 6)
             {
                 mainCamera.orthographicSize = 4f;
             }

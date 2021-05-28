@@ -96,6 +96,9 @@ public class CompletionSetRecord : MonoBehaviour
         }else if (medal.Equals("bronze"))
         {
             medalImage.sprite = bronzeSprite;
+        }else if (medal.Equals("none"))
+        {
+            medalImage.enabled = false;
         }
     }
 }

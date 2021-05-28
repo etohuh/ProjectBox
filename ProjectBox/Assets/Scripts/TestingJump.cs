@@ -5,8 +5,13 @@ using UnityEngine;
 
 public class TestingJump : MonoBehaviour
 {
+    private bool touchable = true;
+    private float timeSinceLastCall;
+    private float prevSize;
+    
     public TravelLine tLine;
 
+    public GameObject pointer;
     public Camera mainCamera;
     Vector3 distanceVector;
     Vector3 dragPoint;
@@ -15,45 +20,88 @@ public class TestingJump : MonoBehaviour
     public float maxJumpforce;
     
     private bool prevGrounded;
-    
+    private bool looking;
+
 
     void Update()
     {
+        if (Input.touchCount == 2 || mainCamera.orthographicSize >= 5f)
+        {
+            touchable = false;
 
-        if (Input.GetButtonDown("Fire1") && mainCamera.orthographicSize == 4f) {
-            if (isGrounded) {
-                dragPoint = mainCamera.ScreenToWorldPoint(Input.mousePosition);
+        }
+
+        if (mainCamera.orthographicSize != 4f)
+        {
+            looking = true;
+        }
+
+        if (looking)
+        {
+            if (Input.touchCount == 0)
+            {
+                touchable = true;
+                looking = false;
             }
-        }else if (Input.GetButtonDown("Fire1") && mainCamera.orthographicSize > 4f)
+        }
+
+
+        if (!looking && Input.touchCount == 1)
+        {
+            touchable = true;
+        }
+        
+        if (Input.GetButtonDown("Fire1") && mainCamera.orthographicSize > 4f)
         {
             mainCamera.GetComponent<ZoomInZoomOut>().ResetCamera();
         }
+        
 
-        if (Input.GetButton("Fire1") && mainCamera.orthographicSize == 4f) {
-            if (isGrounded && dragPoint != Vector3.zero) {
-                distanceVector = dragPoint - mainCamera.ScreenToWorldPoint(Input.mousePosition);
-                tLine.DrawLine(transform, distanceVector);
-                tLine.EnableLine();
-                
+        if (Input.touchCount == 1 && touchable)
+        {
+            if (Input.GetButtonDown("Fire1") && mainCamera.orthographicSize == 4f)
+            {
+                if (isGrounded)
+                {
+                    dragPoint = mainCamera.ScreenToWorldPoint(Input.mousePosition);
+                    pointer.SetActive(true);
+                    pointer.transform.position = new Vector3(dragPoint.x, dragPoint.y, 0);
+
+                }
             }
 
-        }
 
-        if (Input.GetButtonUp("Fire1") && mainCamera.orthographicSize == 4f) {
-            tLine.DisableLine();
-            if (isGrounded && dragPoint != Vector3.zero) {
-                LaunchPlayer();
+            if (Input.GetButton("Fire1") && mainCamera.orthographicSize == 4f)
+            {
+                if (isGrounded && dragPoint != Vector3.zero)
+                {
+                    distanceVector = dragPoint - mainCamera.ScreenToWorldPoint(Input.mousePosition);
+                    tLine.DrawLine(transform, distanceVector);
+                    tLine.EnableLine();
+
+                }
+
             }
-            dragPoint = Vector3.zero;
 
+            if (Input.GetButtonUp("Fire1") && mainCamera.orthographicSize == 4f)
+            {
+                tLine.DisableLine();
+                if (isGrounded && dragPoint != Vector3.zero)
+                {
+                    LaunchPlayer();
+                    pointer.SetActive(false);
+                }
+
+                dragPoint = Vector3.zero;
+
+            }
         }
-
-
     }
+
 
     void LaunchPlayer() {
         rb.AddForce(Vector3.ClampMagnitude(distanceVector, maxJumpforce) * 8, ForceMode2D.Impulse);
-        
+
     }
 
 
@@ -67,8 +115,6 @@ public class TestingJump : MonoBehaviour
        
     }
     
-    
-
     private void OnCollisionExit2D(Collision2D collision) {
         if (collision.gameObject.CompareTag("ground")) {
             isGrounded = false;

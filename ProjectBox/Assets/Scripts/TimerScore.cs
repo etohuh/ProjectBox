@@ -57,6 +57,10 @@ public class TimerScore : MonoBehaviour
                 stars = 1;
                 recordScript.DisplayMedal("bronze");
             }
+            else if(uiTimer.timer > timeForOneStar)
+            {
+                recordScript.DisplayMedal("none");
+            }
 
             coinsBasedStars();
         }

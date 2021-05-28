@@ -973,6 +973,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6913275767946567747, guid: 3034ac2685138cd4487bc8586e2a9c09, type: 3}
   m_PrefabInstance: {fileID: 1792399858}
   m_PrefabAsset: {fileID: 0}
+--- !u!120 &393624962 stripped
+LineRenderer:
+  m_CorrespondingSourceObject: {fileID: 6913275767946567749, guid: 3034ac2685138cd4487bc8586e2a9c09, type: 3}
+  m_PrefabInstance: {fileID: 1792399858}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &424951142
 GameObject:
   m_ObjectHideFlags: 0
@@ -4800,7 +4805,7 @@ PrefabInstance:
     - target: {fileID: 460746768, guid: 276bb2fa3d872b6418609de58977eb0b, type: 3}
       propertyPath: lr
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 393624962}
     - target: {fileID: 460746768, guid: 276bb2fa3d872b6418609de58977eb0b, type: 3}
       propertyPath: player
       value: 
@@ -4812,7 +4817,7 @@ PrefabInstance:
     - target: {fileID: 460746768, guid: 276bb2fa3d872b6418609de58977eb0b, type: 3}
       propertyPath: endPointer
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1848367155}
     - target: {fileID: 8787794566373516864, guid: 276bb2fa3d872b6418609de58977eb0b, type: 3}
       propertyPath: m_RootOrder
       value: 5
