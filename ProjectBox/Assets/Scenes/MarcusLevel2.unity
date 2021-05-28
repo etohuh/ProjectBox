@@ -387,7 +387,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4852883e6c4ccd4c9682847ceef263b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  checkpointSound: {fileID: 0}
   text: {fileID: 1310967071}
+  checkPointTaken: 0
 --- !u!212 &247800269
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1443,6 +1445,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 429178815}
     - target: {fileID: 2096808803, guid: a41321ff4a183e0478aa8618312d4174, type: 3}
+      propertyPath: afterGold
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096808803, guid: a41321ff4a183e0478aa8618312d4174, type: 3}
+      propertyPath: coinOneStar
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096808803, guid: a41321ff4a183e0478aa8618312d4174, type: 3}
+      propertyPath: coinTwoStar
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096808803, guid: a41321ff4a183e0478aa8618312d4174, type: 3}
       propertyPath: normalTimer
       value: 
       objectReference: {fileID: 1309729542}
@@ -1450,6 +1464,10 @@ PrefabInstance:
       propertyPath: recordScript
       value: 
       objectReference: {fileID: 121823855}
+    - target: {fileID: 2096808803, guid: a41321ff4a183e0478aa8618312d4174, type: 3}
+      propertyPath: coinThreeStar
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 6629621055547597464, guid: a41321ff4a183e0478aa8618312d4174, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -19223,6 +19241,14 @@ PrefabInstance:
       propertyPath: levelNumber
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 955732965497845535, guid: 211c89b996db02340acadb32574657bf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 955732965497845535, guid: 211c89b996db02340acadb32574657bf, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4036126323346288873, guid: 211c89b996db02340acadb32574657bf, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -19274,6 +19300,10 @@ PrefabInstance:
     - target: {fileID: 5224973623461575691, guid: 211c89b996db02340acadb32574657bf, type: 3}
       propertyPath: m_Navigation.m_Mode
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6141169965813228740, guid: 211c89b996db02340acadb32574657bf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6353241885570877545, guid: 211c89b996db02340acadb32574657bf, type: 3}
       propertyPath: lLoader
@@ -19494,6 +19524,10 @@ PrefabInstance:
       propertyPath: startingPos
       value: 
       objectReference: {fileID: 470325530}
+    - target: {fileID: 6913275767946567751, guid: 3034ac2685138cd4487bc8586e2a9c09, type: 3}
+      propertyPath: useStartingPos
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6913275768407180874, guid: 3034ac2685138cd4487bc8586e2a9c09, type: 3}
       propertyPath: m_RootOrder
       value: 0

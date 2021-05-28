@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class TimerScore : MonoBehaviour
 {
     [SerializeField] private float timeForOneStar, timeForTwoStar, timeForThreeStar;
-    [SerializeField] private int coinOneStar, coinTwoStar, coinThreeStar;
+    [SerializeField] private int coinOneStar, coinTwoStar, coinThreeStar, afterGold;
 
 
     [SerializeField] private GameObject normalTimer;
@@ -39,8 +39,9 @@ public class TimerScore : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
-        {
+        {   
             compare();
+
             if (uiTimer.timer <= timeForThreeStar/* && uiTimer.timer < timeForTwoStar && uiTimer.timer < timeForOneStar*/)
             {
                 stars = 3;
@@ -66,6 +67,8 @@ public class TimerScore : MonoBehaviour
     {
         print(record);
 
+        
+
         if (record <= timeForThreeStar && record > 0)
         {
             given3 = true;
@@ -81,6 +84,7 @@ public class TimerScore : MonoBehaviour
         {
             given = true;
         }
+        
 
     }
 
@@ -137,7 +141,10 @@ public class TimerScore : MonoBehaviour
 
     private void coinsBasedStars()
     {
-
+        if (record <= timeForThreeStar && given == true && given2 == true && given3 == true && stars == 3)
+        {
+            pState.coinAmount += afterGold;
+        }
         if (stars >= 1 && given == false)
         {
             pState.coinAmount += coinOneStar;
@@ -153,6 +160,8 @@ public class TimerScore : MonoBehaviour
             pState.coinAmount += coinThreeStar;
             given3 = true;
         }
+        
+
         SetCoinPref();
 
     }
