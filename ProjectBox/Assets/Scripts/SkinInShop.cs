@@ -56,6 +56,7 @@ public class SkinInShop : MonoBehaviour
                 PlayerPrefs.SetInt(skinInfo.skinID.ToString(), 1);
                 buttonText.text = "Equip";
                 audioSource.PlayOneShot(cashRegister);
+                
 
             }
             else
