@@ -6,7 +6,7 @@ public class GravityController : MonoBehaviour
 {
     private Rigidbody2D rb;
     
-    public Transform playerEyes;
+    public Transform playerSprite;
     
     public float gravityconst = 15f;
 
@@ -31,17 +31,17 @@ public class GravityController : MonoBehaviour
     private void Update() {
         if (leftGravity) {
             gravityVector = new Vector3(-gravityconst, 0, 0);
-            playerEyes.rotation = Quaternion.Euler(0, 0, -90);
+            playerSprite.rotation = Quaternion.Euler(0, 0, -90);
         }else if (rightGravity) {
             gravityVector = new Vector3(gravityconst, 0, 0);
-            playerEyes.rotation = Quaternion.Euler(0, 0, 90);
+            playerSprite.rotation = Quaternion.Euler(0, 0, 90);
         }else if (topGravity) {
             gravityVector = new Vector3(0, gravityconst, 0);
-            playerEyes.rotation = Quaternion.Euler(0, 0, -180);
+            playerSprite.rotation = Quaternion.Euler(0, 0, -180);
         }
         else if (bottomGravity) {
             gravityVector = new Vector3(0, -gravityconst, 0);
-            playerEyes.rotation = Quaternion.Euler(0, 0, 0);
+            playerSprite.rotation = Quaternion.Euler(0, 0, 0);
         }
     }
 
@@ -60,7 +60,7 @@ public class GravityController : MonoBehaviour
 
     public void ResetGravity() {
         ResetBools();
-        playerEyes.rotation = Quaternion.Euler(0, 0, 0);
+        playerSprite.rotation = Quaternion.Euler(0, 0, 0);
         gravityVector = new Vector3(0, -gravityconst, 0);
     }
 

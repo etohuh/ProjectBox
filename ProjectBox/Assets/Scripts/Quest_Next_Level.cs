@@ -23,10 +23,9 @@ public class Quest_Next_Level : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
-        {   
-           Game_Observer.SaveCoinsToMemory(collision.GetComponent<PlayerState>().coinAmount);
-
-           switch (whatLevel)
+        {
+            print("collision");
+            switch (whatLevel)
            {
                case 1:
                    if (timer.timeSpanCompare <= PlayerPrefs.GetFloat("level1TimeSpan") || PlayerPrefs.GetFloat("level1TimeSpan") == 0) {

@@ -13,6 +13,8 @@ public class TimerScore : MonoBehaviour
     [SerializeField] private GameObject normalTimer;
     [SerializeField] private GameObject player;
 
+    public CompletionSetRecord recordScript;
+
     private UI_Timer uiTimer;
     private int stars, coins;
     //public PlayerPrefs pPrefs;
@@ -36,30 +38,33 @@ public class TimerScore : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
-
-
-        print("Hejhej");
-        print("record is: " + record);
-
-        if (uiTimer.timer <= timeForThreeStar/* && uiTimer.timer < timeForTwoStar && uiTimer.timer < timeForOneStar*/)
+        if (collision.gameObject.CompareTag("Player"))
         {
-            stars = 3;
-        }
-        else if (uiTimer.timer <= timeForTwoStar && uiTimer.timer > timeForThreeStar/* && uiTimer.timer < timeForOneStar*/)
-        {
-            stars = 2;
-        }
-        else if (uiTimer.timer >= timeForOneStar && uiTimer.timer > timeForTwoStar && uiTimer.timer > timeForThreeStar)
-        {
-            stars = 1;
-        }
+            compare();
+            if (uiTimer.timer <= timeForThreeStar/* && uiTimer.timer < timeForTwoStar && uiTimer.timer < timeForOneStar*/)
+            {
+                stars = 3;
+                recordScript.DisplayMedal("gold");
+            }
+            else if (uiTimer.timer <= timeForTwoStar && uiTimer.timer > timeForThreeStar/* && uiTimer.timer < timeForOneStar*/)
+            {
+                stars = 2;
+                recordScript.DisplayMedal("silver");
+            }
+            else if (uiTimer.timer <= timeForOneStar && uiTimer.timer > timeForTwoStar && uiTimer.timer > timeForThreeStar)
+            {
+                stars = 1;
+                recordScript.DisplayMedal("bronze");
+            }
 
-        coinsBasedStars();
+            coinsBasedStars();
+        }
+        
     }
 
     private void compare()
     {
+        print(record);
 
         if (record <= timeForThreeStar && record > 0)
         {
@@ -67,12 +72,12 @@ public class TimerScore : MonoBehaviour
             given2 = true;
             given = true;
         }
-        if (record <= timeForTwoStar && given3 == false && timeForThreeStar < record)
+        if (record <= timeForTwoStar && record > timeForThreeStar)
         {
             given2 = true;
             given = true;
         }
-        if (record > timeForTwoStar && record < timeForOneStar && given2 == false && given == true && record > timeForTwoStar)
+        if (record <= timeForOneStar && record > timeForTwoStar && record > timeForThreeStar)
         {
             given = true;
         }
@@ -82,6 +87,8 @@ public class TimerScore : MonoBehaviour
     private void setRecord()
     {
         whatLevel = SceneManager.GetActiveScene().buildIndex;
+        print(whatLevel);
+        
 
         if (whatLevel == 1)
         {
@@ -89,41 +96,41 @@ public class TimerScore : MonoBehaviour
         }
         else if (whatLevel == 2)
         {
-            record = PlayerPrefs.GetFloat("level2TimeString");
+            record = PlayerPrefs.GetFloat("level2TimeSpan");
         }
         else if (whatLevel == 3)
         {
-            record = PlayerPrefs.GetFloat("level3TimeString");
+            record = PlayerPrefs.GetFloat("level3TimeSpan");
         }
         else if (whatLevel == 4)
         {
-            record = PlayerPrefs.GetFloat("level4TimeString");
+            record = PlayerPrefs.GetFloat("level4TimeSpan");
         }
         else if (whatLevel == 5)
         {
-            record = PlayerPrefs.GetFloat("level5TimeString");
+            record = PlayerPrefs.GetFloat("level5TimeSpan");
         }
         else if (whatLevel == 6)
         {
-            record = PlayerPrefs.GetFloat("level6TimeString");
+            record = PlayerPrefs.GetFloat("level6TimeSpan");
         }
         else if (whatLevel == 7)
         {
-            record = PlayerPrefs.GetFloat("level7TimeString");
+            record = PlayerPrefs.GetFloat("level7TimeSpan");
         }
         else if (whatLevel == 8)
         {
-            record = PlayerPrefs.GetFloat("level8TimeString");
+            record = PlayerPrefs.GetFloat("level8TimeSpan");
         }
         else if (whatLevel == 9)
         {
-            record = PlayerPrefs.GetFloat("level9TimeString");
+            record = PlayerPrefs.GetFloat("level9TimeSpan");
         }
         else if (whatLevel == 10)
         {
-            record = PlayerPrefs.GetFloat("level10TimeString");
+            record = PlayerPrefs.GetFloat("level10TimeSpan");
         }
-
+        print("record is: " + record);
 
 
     }
@@ -146,7 +153,13 @@ public class TimerScore : MonoBehaviour
             pState.coinAmount += coinThreeStar;
             given3 = true;
         }
+        SetCoinPref();
 
+    }
+
+    private void SetCoinPref()
+    {
+        PlayerPrefs.SetInt("CoinAmount", pState.coinAmount);
     }
 
 }

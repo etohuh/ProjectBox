@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class CompletionSetRecord : MonoBehaviour
 {
@@ -10,6 +11,12 @@ public class CompletionSetRecord : MonoBehaviour
     [SerializeField] private TextMeshProUGUI yourTimeText;
     [SerializeField] private TextMeshProUGUI currentRecordText;
     [SerializeField] private GameObject textRecordObject;
+    
+    [SerializeField] private Sprite goldSprite;
+    [SerializeField] private Sprite silverSprite;
+    [SerializeField] private Sprite bronzeSprite;
+
+    public Image medalImage;
 
     public UI_Timer counterTimer;
 
@@ -76,5 +83,19 @@ public class CompletionSetRecord : MonoBehaviour
 
         textRecordObject.SetActive(newRecord);
         newRecord = false;
+    }
+
+    public void DisplayMedal(string medal)
+    {
+        if (medal.Equals("gold"))
+        {
+            medalImage.sprite = goldSprite;
+        }else if (medal.Equals("silver"))
+        {
+            medalImage.sprite = silverSprite;
+        }else if (medal.Equals("bronze"))
+        {
+            medalImage.sprite = bronzeSprite;
+        }
     }
 }

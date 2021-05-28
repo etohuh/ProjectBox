@@ -28,7 +28,7 @@ public class PlayerState : MonoBehaviour
     {
         playerPos = gameObject.GetComponent<Transform>();
         playerRB = gameObject.GetComponent<Rigidbody2D>();
-
+        coinAmount = PlayerPrefs.GetInt("CoinAmount");
 
         isAlive = true;
         if (useStartingPos) {

@@ -32,7 +32,6 @@ public class LevelSelect : MonoBehaviour
 
     public void OpenLevelSelect() {
         levelSelect.SetActive(true);
-        deathUI.SetActive(false);
         recordTextLevel1.text = PlayerPrefs.GetString("level1TimeString");
         recordTextLevel2.text = PlayerPrefs.GetString("level2TimeString");
         recordTextLevel3.text = PlayerPrefs.GetString("level3TimeString");

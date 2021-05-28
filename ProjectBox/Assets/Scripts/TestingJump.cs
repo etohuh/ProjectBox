@@ -13,17 +13,9 @@ public class TestingJump : MonoBehaviour
     public Rigidbody2D rb;
     private bool isGrounded = false;
     public float maxJumpforce;
-
-    public GameObject spriteEyes;
+    
     private bool prevGrounded;
-
-
-    private void Start()
-    {
-        spriteEyes.GetComponent<Animator>().ResetTrigger("grow");
-        spriteEyes.GetComponent<Animator>().ResetTrigger("shrink");
-        
-    }
+    
 
     void Update()
     {
@@ -55,14 +47,7 @@ public class TestingJump : MonoBehaviour
             dragPoint = Vector3.zero;
 
         }
-        
-        
-        if (isGrounded && !prevGrounded)
-        {
-            spriteEyes.GetComponent<Animator>().SetTrigger("grow");
-        }
-        prevGrounded = isGrounded;
-        
+
 
     }
 
@@ -87,7 +72,6 @@ public class TestingJump : MonoBehaviour
     private void OnCollisionExit2D(Collision2D collision) {
         if (collision.gameObject.CompareTag("ground")) {
             isGrounded = false;
-            spriteEyes.GetComponent<Animator>().SetTrigger("shrink");
 
         }
     }

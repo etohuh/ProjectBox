@@ -3,7 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="b2450bb3-591c-4942-bff1-1cf7059d8574" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NewLevelRequired/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/NewLevelRequired/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NewLevelRequired/UI_CANVAS.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/NewLevelRequired/UI_CANVAS.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SettingsUI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SettingsUI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryEASY.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryEASY.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryMEDIUM.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryMEDIUM.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MarcusLevel2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MarcusLevel2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CompletionSetRecord.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CompletionSetRecord.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExitLevelSelect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ExitLevelSelect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GravityController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GravityController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelSelect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelSelect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PauseMenuQuitToMainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PauseMenuQuitToMainMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Quest_Next_Level.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Quest_Next_Level.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TestingJump.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TestingJump.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TimerScore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TimerScore.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ToggleAutoRespawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ToggleAutoRespawn.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,20 +46,24 @@
       <option value="$PROJECT_DIR$/Assets/SelectLevel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ZoomInZoomOut.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LaserShotTravel.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerState.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/TimerScore.cs" />
       <option value="$PROJECT_DIR$/Assets/RotateOrbs.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenuRestartLevel.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/TestingJump.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GravityController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/TravelLine.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CompletionRestartLevel.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/CompletionSetRecord.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Game_Observer.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Quest_Next_Level.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DialogTrigger.cs" />
       <option value="$PROJECT_DIR$/Assets/WobbleCharacters.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DialogManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerState.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CompletionSetRecord.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenuQuitToMainMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ExitLevelSelect.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelSelect.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GravityController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/TestingJump.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ToggleAutoRespawn.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/TimerScore.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Quest_Next_Level.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sJkA9olFL1OZQghnA0L5x56dqx" />
@@ -99,6 +119,7 @@
       <workItem from="1621841829596" duration="12274000" />
       <workItem from="1621968288721" duration="519000" />
       <workItem from="1622016762809" duration="2206000" />
+      <workItem from="1622120628317" duration="7420000" />
     </task>
     <servers />
   </component>

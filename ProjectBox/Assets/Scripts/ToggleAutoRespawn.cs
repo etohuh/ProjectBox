@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ToggleAutoRespawn : MonoBehaviour
 {
     [SerializeField] private Toggle toggleRespawn;
-    public int respawn;
+    public int respawn = -1;
 
 
     private void Start()
