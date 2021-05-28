@@ -6,6 +6,7 @@ using UnityEngine;
 public class PauseMenu : MonoBehaviour
 {
     public GameObject canvas;
+    public GameObject pasueButton;
 
     void Start()
     {
@@ -25,6 +26,8 @@ public class PauseMenu : MonoBehaviour
     }
 
     public void PauseGame() {
+        pasueButton.SetActive(false);
+
         if (Time.timeScale == 1) {
             Time.timeScale = 0;
             canvas.SetActive(true);

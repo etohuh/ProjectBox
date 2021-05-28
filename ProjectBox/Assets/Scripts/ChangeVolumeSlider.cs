@@ -9,9 +9,15 @@ public class ChangeVolumeSlider : MonoBehaviour
     [SerializeField] private GameObject slider;
 
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        musicController.GetComponent<AudioSource>().volume = slider.GetComponent<Slider>().value;
+        slider.GetComponent<Slider>().value = PlayerPrefs.GetFloat("VolumePref");
+        musicController.GetComponent<AudioSource>().volume = PlayerPrefs.GetFloat("VolumePref");
+    }
+
+    public void ChangeVolume()
+    {
+        PlayerPrefs.SetFloat("VolumePref", slider.GetComponent<Slider>().value);
+        musicController.GetComponent<AudioSource>().volume = PlayerPrefs.GetFloat("VolumePref");
     }
 }
