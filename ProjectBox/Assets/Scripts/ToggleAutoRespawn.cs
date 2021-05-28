@@ -6,12 +6,12 @@ using UnityEngine.UI;
 public class ToggleAutoRespawn : MonoBehaviour
 {
     [SerializeField] private Toggle toggleRespawn;
-    public int respawn = -1;
+    private int respawn = -1;
 
 
     private void Start()
     {
-        bool autoRestart = (PlayerPrefs.GetInt("RespawnPref") == 1) ? true : false;
+        bool autoRestart = PlayerPrefs.GetInt("RespawnPref") == 1 ? true : false;
 
         toggleRespawn.isOn = autoRestart;
     }
@@ -25,8 +25,7 @@ public class ToggleAutoRespawn : MonoBehaviour
         else if (respawn == -1)
         {
             respawn = 1;
-        }     
-
+        }
         PlayerPrefs.SetInt("RespawnPref", respawn);
     }
 }

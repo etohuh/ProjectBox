@@ -10,7 +10,7 @@ public class PlayerState : MonoBehaviour
     
     private Transform respawnPos;
 
-    public int coinAmount;
+    public int coinAmount = 0;
     public bool useStartingPos;
 
     private Transform playerPos;
