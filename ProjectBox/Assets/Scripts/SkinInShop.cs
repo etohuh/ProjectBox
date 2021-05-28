@@ -18,6 +18,8 @@ public class SkinInShop : MonoBehaviour
     [SerializeField] SpriteRenderer avatarSprite;
 
     [SerializeField] Animator NoMoneyAnim;
+    [SerializeField] AudioSource audioSource;
+    [SerializeField] AudioClip cashRegister;
 
     private void Awake()
     {
@@ -53,7 +55,8 @@ public class SkinInShop : MonoBehaviour
                 isSkinUnlocked = true;
                 PlayerPrefs.SetInt(skinInfo.skinID.ToString(), 1);
                 buttonText.text = "Equip";
-                
+                audioSource.PlayOneShot(cashRegister);
+
             }
             else
             {
