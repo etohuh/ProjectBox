@@ -45,12 +45,6 @@ public class MusicController : MonoBehaviour
     private bool laser6Track = false;
     private bool laserBuzzingTrack = false;
 
-
-    private void Start()
-    {
-        audioSource.volume = PlayerPrefs.GetFloat("VolumePref");
-    }
-
     // Update is called once per frame
     void Update()
     {
