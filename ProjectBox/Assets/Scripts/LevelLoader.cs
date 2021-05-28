@@ -7,15 +7,7 @@ public class LevelLoader : MonoBehaviour
 {
     public Animator transition;
     public float transitionTime = 1f;
-
-    private void Update()
-    {
-        if (Input.GetKeyDown("l"))
-        {
-            Time.timeScale = 1;
-            LoadLevelWithTransition();
-        }  
-    }
+    
 
     public void LoadLevelWithTransition()
     {
