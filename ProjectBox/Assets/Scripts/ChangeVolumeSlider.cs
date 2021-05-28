@@ -7,7 +7,6 @@ using UnityEngine.UI;
 
 public class ChangeVolumeSlider : MonoBehaviour
 {
-    [SerializeField] private GameObject musicController;
     [SerializeField] private GameObject slider;
 
     private void Start()
@@ -18,7 +17,6 @@ public class ChangeVolumeSlider : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        musicController.GetComponent<AudioSource>().volume = slider.GetComponent<Slider>().value;
         PlayerPrefs.SetFloat("VolumePref", slider.GetComponent<Slider>().value);
 
     }
