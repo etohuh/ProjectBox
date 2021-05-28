@@ -9,14 +9,14 @@ public class CurrencyManager : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI currencyText;
     [SerializeField] private TextMeshProUGUI currencyTextShade;
-    [SerializeField] private Text moneyText;
+    
     
     // Start is called before the first frame update
     void Start()
     {
         currencyText.text = PlayerPrefs.GetInt("CoinAmount").ToString();
         currencyTextShade.text = PlayerPrefs.GetInt("CoinAmount").ToString();
-        moneyText.text = PlayerPrefs.GetInt("CoinAmount").ToString();
+        
         
     }
 
