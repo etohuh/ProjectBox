@@ -16,6 +16,10 @@ public class AudioOneShot : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        audioSource.Play();
+        if (other.gameObject.CompareTag("Player"))
+        {
+            audioSource.Play();
+        }
+        
     }
 }
