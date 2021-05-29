@@ -15,6 +15,8 @@ public class DialogManager : MonoBehaviour
 
     public bool waitForAnimation;
 
+    [SerializeField] private int nextLevelIndex;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -55,6 +57,13 @@ public class DialogManager : MonoBehaviour
     }
 
     public void EndDialog() {
+
+        if (nextLevelIndex != 0)
+        {
+            lLoader.LoadLevelWithTransition(nextLevelIndex);
+            return;
+        }
+        
         if (!waitForAnimation)
         {
             lLoader.LoadLevelWithTransition();

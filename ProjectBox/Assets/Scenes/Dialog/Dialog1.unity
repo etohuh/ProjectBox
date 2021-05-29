@@ -1302,6 +1302,8 @@ MonoBehaviour:
   dialogText: {fileID: 1522794408}
   lLoader: {fileID: 2143142499}
   audioSource: {fileID: 200097128}
+  waitForAnimation: 0
+  nextLevelIndex: 1
 --- !u!4 &1642734967
 Transform:
   m_ObjectHideFlags: 0
