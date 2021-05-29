@@ -22,6 +22,12 @@ public class TestingJump : MonoBehaviour
     private bool prevGrounded;
     private bool looking;
 
+    private void Start()
+    {
+        looking = true;
+        touchable = true;
+    }
+
 
     void Update()
     {
@@ -56,8 +62,8 @@ public class TestingJump : MonoBehaviour
             mainCamera.GetComponent<ZoomInZoomOut>().ResetCamera();
         }
         
-
-        if (Input.touchCount == 1 && touchable)
+        //UN-COMMENT FOR PHONE
+        if (/*Input.touchCount == 1) && */touchable)
         {
             if (Input.GetButtonDown("Fire1") && mainCamera.orthographicSize == 4f)
             {
