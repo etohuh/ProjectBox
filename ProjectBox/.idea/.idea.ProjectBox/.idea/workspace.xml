@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2450bb3-591c-4942-bff1-1cf7059d8574" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NewLevelRequired/UI_CANVAS.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/NewLevelRequired/UI_CANVAS.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dialog/Dialog.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dialog/Dialog.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dialog/DialogFINAL.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dialog/DialogFINAL.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryEASY.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryEASY.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryHARD.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryHARD.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryMEDIUM.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryMEDIUM.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MarcusLevel2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MarcusLevel2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game_Observer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game_Observer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Quest_Next_Level.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Quest_Next_Level.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TestingJump.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TestingJump.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TimerScore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TimerScore.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,7 +131,7 @@
       <workItem from="1622016762809" duration="2206000" />
       <workItem from="1622120628317" duration="7420000" />
       <workItem from="1622203512306" duration="6136000" />
-      <workItem from="1622293875286" duration="1904000" />
+      <workItem from="1622293875286" duration="2499000" />
     </task>
     <servers />
   </component>
