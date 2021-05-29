@@ -1715,6 +1715,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 393624958}
     - target: {fileID: 2096808803, guid: a41321ff4a183e0478aa8618312d4174, type: 3}
+      propertyPath: afterGold
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096808803, guid: a41321ff4a183e0478aa8618312d4174, type: 3}
+      propertyPath: coinOneStar
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096808803, guid: a41321ff4a183e0478aa8618312d4174, type: 3}
+      propertyPath: coinTwoStar
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096808803, guid: a41321ff4a183e0478aa8618312d4174, type: 3}
       propertyPath: normalTimer
       value: 
       objectReference: {fileID: 2001937808}
@@ -1727,20 +1739,24 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1982431391}
     - target: {fileID: 2096808803, guid: a41321ff4a183e0478aa8618312d4174, type: 3}
+      propertyPath: coinThreeStar
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096808803, guid: a41321ff4a183e0478aa8618312d4174, type: 3}
       propertyPath: currencyShade
       value: 
       objectReference: {fileID: 1317697897}
     - target: {fileID: 2096808803, guid: a41321ff4a183e0478aa8618312d4174, type: 3}
       propertyPath: timeForOneStar
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096808803, guid: a41321ff4a183e0478aa8618312d4174, type: 3}
-      propertyPath: timeForTwoStar
       value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 2096808803, guid: a41321ff4a183e0478aa8618312d4174, type: 3}
+      propertyPath: timeForTwoStar
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096808803, guid: a41321ff4a183e0478aa8618312d4174, type: 3}
       propertyPath: timeForThreeStar
-      value: 50
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 6629621055547597464, guid: a41321ff4a183e0478aa8618312d4174, type: 3}
       propertyPath: m_RootOrder
