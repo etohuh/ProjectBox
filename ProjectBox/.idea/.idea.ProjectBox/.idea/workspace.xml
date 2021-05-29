@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2450bb3-591c-4942-bff1-1cf7059d8574" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryHARD.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryHARD.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryEASY.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gregory/GregoryEASY.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game_Observer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game_Observer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +64,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/TestingJump.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/TimerScore.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Quest_Next_Level.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DialogManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Game_Observer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DialogManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sJkA9olFL1OZQghnA0L5x56dqx" />
@@ -131,7 +132,7 @@
       <workItem from="1622016762809" duration="2206000" />
       <workItem from="1622120628317" duration="7420000" />
       <workItem from="1622203512306" duration="6136000" />
-      <workItem from="1622293875286" duration="2499000" />
+      <workItem from="1622293875286" duration="3040000" />
     </task>
     <servers />
   </component>

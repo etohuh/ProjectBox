@@ -6,7 +6,7 @@ using UnityEngine;
 public class Game_Observer : MonoBehaviour
 {
     public int levelNumber;
-    public bool dialogComing;
+    
     
     //timespan playerprefs
     public static void SaveLevel1TimeString(string recordTime) {

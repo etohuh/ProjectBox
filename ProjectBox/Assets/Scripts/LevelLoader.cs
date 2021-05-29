@@ -6,14 +6,14 @@ public class LevelLoader : MonoBehaviour
 {
     public Animator transition;
     public float transitionTime = 1f;
-    public GameObject gameObserver;
+    public bool dialogComing;
 
     [SerializeField] private string dialogName;
     
 
     public void LoadLevelWithTransition()
     {
-        if (gameObserver.GetComponent<Game_Observer>().dialogComing && !dialogName.Equals(""))
+        if (dialogComing && !dialogName.Equals(""))
         {
             StartCoroutine(LoadLevelTransition(dialogName));
         }
