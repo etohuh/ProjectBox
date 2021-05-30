@@ -62,22 +62,7 @@ public class CompletionSetRecord : MonoBehaviour
                 currentRecordText.text = "current record: " + PlayerPrefs.GetString("level6TimeString");
                 yourTimeText.text = "your time: " + counterTimer.textMP.text;
                 break;
-            case 7:
-                currentRecordText.text = "current record: " + PlayerPrefs.GetString("level7TimeString");
-                yourTimeText.text = "your time: " + counterTimer.textMP.text;
-                break;
-            case 8:
-                currentRecordText.text = "current record: " + PlayerPrefs.GetString("level8TimeString");
-                yourTimeText.text = "your time: " + counterTimer.textMP.text;
-                break;
-            case 9:
-                currentRecordText.text = "current record: " + PlayerPrefs.GetString("level9TimeString");
-                yourTimeText.text = "your time: " + counterTimer.textMP.text;
-                break;
-            case 10:
-                currentRecordText.text = "current record: " + PlayerPrefs.GetString("level10TimeString");
-                yourTimeText.text = "your time: " + counterTimer.textMP.text;
-                break;
+
 
         }
 

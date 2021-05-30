@@ -5792,17 +5792,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfc2d5f83eddce24292c54c70ee2fb50, type: 3}
---- !u!114 &230780774 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7777312379677215210, guid: 211c89b996db02340acadb32574657bf, type: 3}
-  m_PrefabInstance: {fileID: 1676543782}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &245865225
 GameObject:
   m_ObjectHideFlags: 0
@@ -6444,17 +6433,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6629621055547597464, guid: a41321ff4a183e0478aa8618312d4174, type: 3}
   m_PrefabInstance: {fileID: 6629621057501995283}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &794119167 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7777312379228294339, guid: 211c89b996db02340acadb32574657bf, type: 3}
-  m_PrefabInstance: {fileID: 1676543782}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &806832647 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7777312378835456930, guid: 211c89b996db02340acadb32574657bf, type: 3}
@@ -6802,17 +6780,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78fd8b10e2a020044af108a6bb2902ed, type: 3}
---- !u!114 &883724599 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7777312379576290388, guid: 211c89b996db02340acadb32574657bf, type: 3}
-  m_PrefabInstance: {fileID: 1676543782}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &945100671
 GameObject:
   m_ObjectHideFlags: 0
@@ -6886,17 +6853,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
---- !u!114 &947777059 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7777312380200957215, guid: 211c89b996db02340acadb32574657bf, type: 3}
-  m_PrefabInstance: {fileID: 1676543782}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1054572682
 GameObject:
   m_ObjectHideFlags: 0
@@ -7038,6 +6994,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7204576068017870464, guid: 87754b83c7d9e4f49903a179c68d46bf, type: 3}
+      propertyPath: dialogName
+      value: Dialog3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204576068017870464, guid: 87754b83c7d9e4f49903a179c68d46bf, type: 3}
+      propertyPath: dialogComing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7204576068017870465, guid: 87754b83c7d9e4f49903a179c68d46bf, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -7551,19 +7515,19 @@ PrefabInstance:
     - target: {fileID: 534425046, guid: 211c89b996db02340acadb32574657bf, type: 3}
       propertyPath: recordTextLevel7
       value: 
-      objectReference: {fileID: 883724599}
+      objectReference: {fileID: 0}
     - target: {fileID: 534425046, guid: 211c89b996db02340acadb32574657bf, type: 3}
       propertyPath: recordTextLevel8
       value: 
-      objectReference: {fileID: 794119167}
+      objectReference: {fileID: 0}
     - target: {fileID: 534425046, guid: 211c89b996db02340acadb32574657bf, type: 3}
       propertyPath: recordTextLevel9
       value: 
-      objectReference: {fileID: 947777059}
+      objectReference: {fileID: 0}
     - target: {fileID: 534425046, guid: 211c89b996db02340acadb32574657bf, type: 3}
       propertyPath: recordTextLevel10
       value: 
-      objectReference: {fileID: 230780774}
+      objectReference: {fileID: 0}
     - target: {fileID: 879738824, guid: 211c89b996db02340acadb32574657bf, type: 3}
       propertyPath: pauseButton
       value: 
@@ -8900,11 +8864,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6913275768407180874, guid: 3034ac2685138cd4487bc8586e2a9c09, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.9
+      value: 17.43
       objectReference: {fileID: 0}
     - target: {fileID: 6913275768407180874, guid: 3034ac2685138cd4487bc8586e2a9c09, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 78.4
+      value: 94.35
       objectReference: {fileID: 0}
     - target: {fileID: 6913275768407180874, guid: 3034ac2685138cd4487bc8586e2a9c09, type: 3}
       propertyPath: m_LocalPosition.z

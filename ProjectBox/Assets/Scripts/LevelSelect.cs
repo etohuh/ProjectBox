@@ -17,10 +17,10 @@ public class LevelSelect : MonoBehaviour
     public GameObject levelSelect;
     private TextMeshProUGUI[] recordArray; 
     private TextMeshProUGUI previous;
-    [SerializeField] private GameObject deathUI;
     private void Awake()
     {
         recordArray = new TextMeshProUGUI[6];
+        previous = recordTextLevel1;
         recordArray[0] = recordTextLevel1;
         recordArray[1] = recordTextLevel2;
         recordArray[2] = recordTextLevel3;

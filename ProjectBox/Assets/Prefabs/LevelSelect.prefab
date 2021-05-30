@@ -251,7 +251,7 @@ GameObject:
   - component: {fileID: 6353241886632660920}
   - component: {fileID: 6353241886632660922}
   - component: {fileID: 6353241886632660921}
-  - component: {fileID: 6353241886632660923}
+  - component: {fileID: 1678689448306642412}
   m_Layer: 5
   m_Name: LevelSelect
   m_TagString: Untagged
@@ -309,7 +309,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -319,7 +319,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &6353241886632660923
+--- !u!114 &1678689448306642412
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -337,12 +337,7 @@ MonoBehaviour:
   recordTextLevel4: {fileID: 5440567570052592261}
   recordTextLevel5: {fileID: 5440567570696909372}
   recordTextLevel6: {fileID: 5440567569330262013}
-  recordTextLevel7: {fileID: 0}
-  recordTextLevel8: {fileID: 0}
-  recordTextLevel9: {fileID: 0}
-  recordTextLevel10: {fileID: 0}
   levelSelect: {fileID: 6353241886632660927}
-  deathUI: {fileID: 0}
 --- !u!1 &7847002778038861410
 GameObject:
   m_ObjectHideFlags: 0
@@ -1212,6 +1207,12 @@ PrefabInstance:
     - target: {fileID: 2948383427706781683, guid: 45c0d8c44f2fe5b419859f5fe56234f6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2948383427817673152, guid: 45c0d8c44f2fe5b419859f5fe56234f6, type: 3}
+      propertyPath: m_text
+      value: 'Tutorial
+
+'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45c0d8c44f2fe5b419859f5fe56234f6, type: 3}

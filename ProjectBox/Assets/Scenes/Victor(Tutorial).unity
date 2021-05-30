@@ -731,6 +731,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: LevelSelect, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 1985929526, guid: 211c89b996db02340acadb32574657bf, type: 3}
+      propertyPath: lLoader
+      value: 
+      objectReference: {fileID: 133884322}
+    - target: {fileID: 1985929526, guid: 211c89b996db02340acadb32574657bf, type: 3}
+      propertyPath: playerRB
+      value: 
+      objectReference: {fileID: 1485353689}
     - target: {fileID: 2655958119513704267, guid: 211c89b996db02340acadb32574657bf, type: 3}
       propertyPath: m_audioClip
       value: 
@@ -739,6 +747,14 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 541530a7dccc28d48a1c1c02a8179e9d, type: 3}
+    - target: {fileID: 4036126323346288873, guid: 211c89b996db02340acadb32574657bf, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 123019028}
+    - target: {fileID: 4036126323346288873, guid: 211c89b996db02340acadb32574657bf, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Respawn
+      objectReference: {fileID: 0}
     - target: {fileID: 4829076492916371921, guid: 211c89b996db02340acadb32574657bf, type: 3}
       propertyPath: lLoader
       value: 

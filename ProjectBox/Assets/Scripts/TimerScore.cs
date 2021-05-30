@@ -73,9 +73,6 @@ public class TimerScore : MonoBehaviour
 
     private void compare()
     {
-        print(record);
-
-        
 
         if (record <= timeForThreeStar && record > 0)
         {
