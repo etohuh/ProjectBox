@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2450bb3-591c-4942-bff1-1cf7059d8574" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Dialog1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Dialog1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Dialog2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Dialog2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Dialog3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Dialog3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/GregoryEASY.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/GregoryEASY.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/GregoryHARD.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/GregoryHARD.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/GregoryMEDIUM.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/GregoryMEDIUM.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Ivan_mainmenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Ivan_mainmenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/MarcusLevel2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/MarcusLevel2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Victor(Tutorial).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Victor(Tutorial).unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Zacharias Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Zacharias Level.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dialog/Dialog3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dialog/Dialog3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +24,10 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/CurrencyManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DialogTeleport.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMPro_UGUI_Private.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/VolumeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChangeMusicVolume.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.3.2/Runtime/Camera/FreeCamera.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -74,8 +69,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Game_Observer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AudioOneShot.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DialogManager.cs" />
       <option value="$PROJECT_DIR$/Assets/DialogTeleport.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DialogManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sJkA9olFL1OZQghnA0L5x56dqx" />
@@ -142,7 +137,7 @@
       <workItem from="1622120628317" duration="7420000" />
       <workItem from="1622203512306" duration="6136000" />
       <workItem from="1622293875286" duration="4341000" />
-      <workItem from="1622376416009" duration="3302000" />
+      <workItem from="1622376416009" duration="1472000" />
     </task>
     <servers />
   </component>
