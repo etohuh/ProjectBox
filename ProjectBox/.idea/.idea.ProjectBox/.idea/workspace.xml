@@ -2,90 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2450bb3-591c-4942-bff1-1cf7059d8574" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/BoxxieTransition.overrideController.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/BoxxieTransition.overrideController.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/BoxxieTransition_End.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/BoxxieTransition_End.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/BoxxieTransition_Start.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/BoxxieTransition_Start.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Checkpoint_HIDDEN.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Checkpoint_HIDDEN.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Checkpoint_SHEET_0.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Checkpoint_SHEET_0.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/CircleWipe.overrideController" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/CircleWipe.overrideController.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/CircleWipe_End.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/CircleWipe_End.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/CircleWipe_Start.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/CircleWipe_Start.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/EYES.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/EYES.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Lock.overrideController" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Lock.overrideController.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Lock_End.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Lock_End.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Lock_Start.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Lock_Start.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerDefault.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/PlayerDefault.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerEyes.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerEyes.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerEyesGROW.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerEyesGROW.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerEyesSHRINK.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerEyesSHRINK.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/SquashNStretch.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/SquashNStretch/HeighStretch.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/SquashNStretch/HeighStretch.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/SquashNStretch/Height.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/SquashNStretch/Height.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/SquashNStretch/HeightDefault.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/SquashNStretch/HeightDefault.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/SquashNStretch/HeightSquash.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/SquashNStretch/HeightSquash.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/TRIWOBBLE.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/TRIWOBBLE.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/checkPointOpening.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/checkPointOpening.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurrencyManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurrencyManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DialogTeleport.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DialogTeleport.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/CUSTOM/KIN668.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/CUSTOM/KIN668.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/KIN668.TTF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/KIN668.TTF.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MenuOpener.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MenuOpener.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NewLevelRequired/EndObjective.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/NewLevelRequired/EndObjective.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Spel.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Spel.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelSelect.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelSelect.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestarScript.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestarScript.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestingLevelSelect.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestingLevelSelect.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WIP_LEVEL.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WIP_LEVEL.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Zacharias/LevelTest.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Zacharias/LevelTest.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Zacharias/Prototype Shop.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Zacharias/Prototype Shop.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Zacharias/Shop scrapped.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Zacharias/Shop scrapped.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Zacharias/Shop test level.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Zacharias/Shop test level.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Zacharias/Zacharias Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Zacharias/Zacharias Level.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Zacharias/Zacharias jump test.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Zacharias/Zacharias jump test.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Zacharias/Zacharias.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Zacharias/Zacharias.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CompletionChooseLevel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CompletionChooseLevel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/boxxieJump.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/boxxieJump.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VolumeController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VolumeController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Dialog1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Dialog1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Dialog2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Dialog2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Dialog3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Dialog3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/GregoryEASY.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/GregoryEASY.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/GregoryHARD.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/GregoryHARD.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/GregoryMEDIUM.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/GregoryMEDIUM.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Ivan_mainmenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Ivan_mainmenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/MarcusLevel2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/MarcusLevel2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Victor(Tutorial).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Victor(Tutorial).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Zacharias Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Zacharias Level.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -215,7 +142,7 @@
       <workItem from="1622120628317" duration="7420000" />
       <workItem from="1622203512306" duration="6136000" />
       <workItem from="1622293875286" duration="4341000" />
-      <workItem from="1622376416009" duration="3240000" />
+      <workItem from="1622376416009" duration="3302000" />
     </task>
     <servers />
   </component>

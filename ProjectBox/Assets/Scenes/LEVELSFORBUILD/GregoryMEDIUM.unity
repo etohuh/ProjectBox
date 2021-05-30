@@ -6616,11 +6616,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7204576068017870464, guid: 87754b83c7d9e4f49903a179c68d46bf, type: 3}
       propertyPath: dialogName
-      value: Dialog2
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7204576068017870464, guid: 87754b83c7d9e4f49903a179c68d46bf, type: 3}
       propertyPath: dialogComing
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7204576068017870464, guid: 87754b83c7d9e4f49903a179c68d46bf, type: 3}
       propertyPath: gameObserver

@@ -664,6 +664,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1423266519, guid: 211c89b996db02340acadb32574657bf, type: 3}
+      propertyPath: levelLoader
+      value: 
+      objectReference: {fileID: 133884322}
     - target: {fileID: 1532402197, guid: 211c89b996db02340acadb32574657bf, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -1932,6 +1936,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7204576068017870464, guid: 87754b83c7d9e4f49903a179c68d46bf, type: 3}
+      propertyPath: dialogName
+      value: Dialog1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204576068017870464, guid: 87754b83c7d9e4f49903a179c68d46bf, type: 3}
+      propertyPath: dialogComing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7204576068017870465, guid: 87754b83c7d9e4f49903a179c68d46bf, type: 3}
       propertyPath: m_RootOrder
       value: 13

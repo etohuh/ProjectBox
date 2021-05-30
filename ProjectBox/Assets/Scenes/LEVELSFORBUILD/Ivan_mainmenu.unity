@@ -1199,6 +1199,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transition: {fileID: 402112956}
   transitionTime: 1
+  dialogComing: 0
+  dialogName: 
 --- !u!1 &527012672
 GameObject:
   m_ObjectHideFlags: 0
@@ -1643,7 +1645,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 8
+          m_IntArgument: 11
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1700,6 +1702,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transition: {fileID: 402112956}
   transitionTime: 1
+  dialogComing: 0
+  dialogName: 
 --- !u!1 &681032428
 GameObject:
   m_ObjectHideFlags: 0
