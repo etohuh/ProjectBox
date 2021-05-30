@@ -4816,7 +4816,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7949961264964658792, guid: 92b1bce9c95dde0488b92366d77a8ed7, type: 3}
       propertyPath: levelNumber
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7949961264964658792, guid: 92b1bce9c95dde0488b92366d77a8ed7, type: 3}
       propertyPath: dialogComing
@@ -48332,6 +48332,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: LEVELCOMPLETETEXT
       objectReference: {fileID: 0}
+    - target: {fileID: 22099218815801382, guid: 211c89b996db02340acadb32574657bf, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef565b3b5cfcaf048ac3ad1dd6eb9739, type: 3}
+    - target: {fileID: 471770804126976959, guid: 211c89b996db02340acadb32574657bf, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef565b3b5cfcaf048ac3ad1dd6eb9739, type: 3}
+    - target: {fileID: 482944384758922947, guid: 211c89b996db02340acadb32574657bf, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef565b3b5cfcaf048ac3ad1dd6eb9739, type: 3}
+    - target: {fileID: 2936803259513091638, guid: 211c89b996db02340acadb32574657bf, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef565b3b5cfcaf048ac3ad1dd6eb9739, type: 3}
     - target: {fileID: 4036126323346288873, guid: 211c89b996db02340acadb32574657bf, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -48340,10 +48356,42 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Respawn
       objectReference: {fileID: 0}
+    - target: {fileID: 4829076492916371921, guid: 211c89b996db02340acadb32574657bf, type: 3}
+      propertyPath: lLoader
+      value: 
+      objectReference: {fileID: 1842627102}
+    - target: {fileID: 4829076493402786985, guid: 211c89b996db02340acadb32574657bf, type: 3}
+      propertyPath: lLoader
+      value: 
+      objectReference: {fileID: 1842627102}
+    - target: {fileID: 4829076493434426781, guid: 211c89b996db02340acadb32574657bf, type: 3}
+      propertyPath: lLoader
+      value: 
+      objectReference: {fileID: 1842627102}
+    - target: {fileID: 4829076493952504778, guid: 211c89b996db02340acadb32574657bf, type: 3}
+      propertyPath: lLoader
+      value: 
+      objectReference: {fileID: 1842627102}
+    - target: {fileID: 4829076494231843176, guid: 211c89b996db02340acadb32574657bf, type: 3}
+      propertyPath: lLoader
+      value: 
+      objectReference: {fileID: 1842627102}
     - target: {fileID: 4847165901166383208, guid: 211c89b996db02340acadb32574657bf, type: 3}
       propertyPath: settingsUI
       value: 
       objectReference: {fileID: 2032128188}
+    - target: {fileID: 4930177289499654403, guid: 211c89b996db02340acadb32574657bf, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef565b3b5cfcaf048ac3ad1dd6eb9739, type: 3}
+    - target: {fileID: 5744151839110197373, guid: 211c89b996db02340acadb32574657bf, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef565b3b5cfcaf048ac3ad1dd6eb9739, type: 3}
+    - target: {fileID: 7777312379428157178, guid: 211c89b996db02340acadb32574657bf, type: 3}
+      propertyPath: lLoader
+      value: 
+      objectReference: {fileID: 1842627102}
     - target: {fileID: 8700604013396500918, guid: 211c89b996db02340acadb32574657bf, type: 3}
       propertyPath: m_Name
       value: UI_CANVAS
