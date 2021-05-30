@@ -7,8 +7,9 @@ public class RespawnFix : MonoBehaviour
 {
         public void Start()
         {
-                if(PlayerPrefs.GetInt("RespawnPref") != 1 || PlayerPrefs.GetInt("RespawnPref") != -1)
+                if(!PlayerPrefs.HasKey("RespawnPref"))
                         PlayerPrefs.SetInt("RespawnPref", -1);
+                        
         }
 
         

@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2450bb3-591c-4942-bff1-1cf7059d8574" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RespawnFix.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RespawnFix.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game_Observer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game_Observer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,10 +67,11 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/CompletionSetRecord.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Quest_Next_Level.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/TimerScore.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Game_Observer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SelectLevel.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/LevelSelect.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CompletionNextLevel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelSelect.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Game_Observer.cs" />
+      <option value="$PROJECT_DIR$/Assets/RespawnFix.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sJkA9olFL1OZQghnA0L5x56dqx" />
