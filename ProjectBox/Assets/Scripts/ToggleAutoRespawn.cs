@@ -11,6 +11,8 @@ public class ToggleAutoRespawn : MonoBehaviour
 
     private void Start()
     {
+        if (PlayerPrefs.GetInt("RespawnPref") == 0)
+            PlayerPrefs.SetInt("RespawnPref", -1);
         bool autoRestart = PlayerPrefs.GetInt("RespawnPref") == 1 ? true : false;
 
         toggleRespawn.isOn = autoRestart;

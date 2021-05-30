@@ -25,20 +25,9 @@ public class Game_Observer : MonoBehaviour
         PlayerPrefs.SetString("level5TimeString", recordTime);
     }
     public static void SaveLevel6TimeString(string recordTime) {
-        PlayerPrefs.SetString("level63TimeString", recordTime);
+        PlayerPrefs.SetString("level6TimeString", recordTime);
     }
-    public static void SaveLevel7TimeString(string recordTime) {
-        PlayerPrefs.SetString("level7TimeString", recordTime);
-    }
-    public static void SaveLevel8TimeString(string recordTime) {
-        PlayerPrefs.SetString("level8TimeString", recordTime);
-    }
-    public static void SaveLevel9TimeString(string recordTime) {
-        PlayerPrefs.SetString("level9TimeString", recordTime);
-    }
-    public static void SaveLevel10TimeString(string recordTime) {
-        PlayerPrefs.SetString("level10TimeString", recordTime);
-    }
+
 
     //string playerprefs
     public static void SaveLevel1TimeSpan(TimeSpan recordTimeSpan) {
@@ -62,18 +51,7 @@ public class Game_Observer : MonoBehaviour
     public static void SaveLevel6TimeSpan(TimeSpan recordTimeSpan) {
         PlayerPrefs.SetFloat("level6TimeSpan", (float)recordTimeSpan.TotalSeconds);
     }
-    public static void SaveLevel7TimeSpan(TimeSpan recordTimeSpan) {
-        PlayerPrefs.SetFloat("level7TimeSpan", (float)recordTimeSpan.TotalSeconds);
-    }
-    public static void SaveLevel8TimeSpan(TimeSpan recordTimeSpan) {
-        PlayerPrefs.SetFloat("level8TimeSpan", (float)recordTimeSpan.TotalSeconds);
-    }
-    public static void SaveLevel9TimeSpan(TimeSpan recordTimeSpan) {
-        PlayerPrefs.SetFloat("level9TimeSpan", (float)recordTimeSpan.TotalSeconds);
-    }
-    public static void SaveLevel10TimeSpan(TimeSpan recordTimeSpan) {
-        PlayerPrefs.SetFloat("level10TimeSpan", (float)recordTimeSpan.TotalSeconds);
-    }
+
 
 
 }

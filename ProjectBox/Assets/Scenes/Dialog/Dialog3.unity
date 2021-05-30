@@ -1078,7 +1078,7 @@ MonoBehaviour:
   lLoader: {fileID: 1106588089}
   audioSource: {fileID: 1807842283}
   waitForAnimation: 1
-  nextLevelIndex: 5
+  nextLevelIndex: 6
 --- !u!4 &660818295
 Transform:
   m_ObjectHideFlags: 0

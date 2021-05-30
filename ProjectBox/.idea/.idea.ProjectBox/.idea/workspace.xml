@@ -2,21 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2450bb3-591c-4942-bff1-1cf7059d8574" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectBox/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelSelect.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelSelect.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NewLevelRequired/Pointer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/NewLevelRequired/Pointer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NewLevelRequired/UI_CANVAS.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/NewLevelRequired/UI_CANVAS.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Shop/ShopItemUITemplate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Shop/ShopItemUITemplate.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/GregoryEASY.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/GregoryEASY.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/GregoryHARD.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/GregoryHARD.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/GregoryMEDIUM.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/GregoryMEDIUM.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Ivan_mainmenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Ivan_mainmenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Shop.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Shop.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Victor(Tutorial).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVELSFORBUILD/Victor(Tutorial).unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelSelect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelSelect.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoneyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MoneyManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMoney.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMoney.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SelectLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SelectLevel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,26 +48,26 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerState.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Main_Menu_Start_Game.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SkinLoader.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/CompletionNextLevel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ChangeVolumeSlider.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ChangeMusicVolume.cs" />
       <option value="$PROJECT_DIR$/Assets/VolumeController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Checkpoint.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/CompletionSetRecord.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ZoomInZoomOut.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/TestingJump.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/TimerScore.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Quest_Next_Level.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Game_Observer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AudioOneShot.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DialogManager.cs" />
       <option value="$PROJECT_DIR$/Assets/DialogTeleport.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/LevelSelect.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMoney.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MoneyManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CompletionSetRecord.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Quest_Next_Level.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/TimerScore.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Game_Observer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SelectLevel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelSelect.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CompletionNextLevel.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sJkA9olFL1OZQghnA0L5x56dqx" />
@@ -149,7 +134,7 @@
       <workItem from="1622120628317" duration="7420000" />
       <workItem from="1622203512306" duration="6136000" />
       <workItem from="1622293875286" duration="4341000" />
-      <workItem from="1622376416009" duration="6025000" />
+      <workItem from="1622376416009" duration="10827000" />
     </task>
     <servers />
   </component>
