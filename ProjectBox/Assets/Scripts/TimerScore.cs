@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,6 +13,9 @@ public class TimerScore : MonoBehaviour
 
     [SerializeField] private GameObject normalTimer;
     [SerializeField] private GameObject player;
+
+    [SerializeField] private TextMeshProUGUI currencyText;
+    [SerializeField] private TextMeshProUGUI currencyShade;
 
     public CompletionSetRecord recordScript;
 
@@ -145,26 +149,40 @@ public class TimerScore : MonoBehaviour
 
     private void coinsBasedStars()
     {
+        int sum = 0;
         if (record <= timeForThreeStar && given == true && given2 == true && given3 == true && stars == 3)
         {
             pState.coinAmount += afterGold;
+            sum += afterGold;
         }
         if (stars >= 1 && given == false)
         {
             pState.coinAmount += coinOneStar;
+            sum += coinOneStar;
             given = true;
         }
         if (stars >= 2 && given2 == false)
         {
             pState.coinAmount += coinTwoStar;
+            sum += coinTwoStar;
             given2 = true;
         }
         if (stars >= 3 && given3 == false)
         {
             pState.coinAmount += coinThreeStar;
+            sum += coinThreeStar;
             given3 = true;
         }
-        
+
+        if (sum > 0)
+        {
+            currencyText.text = "+" + sum;
+            currencyShade.text = "+" + sum;
+        }else if (sum == 0)
+        {
+            currencyText.text = "";
+            currencyShade.text = "";
+        }
 
         SetCoinPref();
 

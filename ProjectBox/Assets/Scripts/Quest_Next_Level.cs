@@ -10,6 +10,7 @@ public class Quest_Next_Level : MonoBehaviour
     public CompletionSetRecord recordScript;
     public PlayerState playerState;
     private float whatLevel;
+    [SerializeField] private Rigidbody2D playerRB;
 
     private void Start() {
         timer = timer.GetComponent<UI_Timer>();
@@ -17,14 +18,13 @@ public class Quest_Next_Level : MonoBehaviour
         whatLevel = GameObject.Find("GameObserver").GetComponent<Game_Observer>().levelNumber;
         completionScreen.SetActive(false);
         whatLevel = SceneManager.GetActiveScene().buildIndex;
-
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            print("collision");
+            playerRB.velocity = Vector2.zero;
             switch (whatLevel)
            {
                case 1:
