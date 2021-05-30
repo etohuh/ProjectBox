@@ -5476,7 +5476,7 @@ PrefabInstance:
     - target: {fileID: 460746768, guid: 276bb2fa3d872b6418609de58977eb0b, type: 3}
       propertyPath: lr
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2127310621}
     - target: {fileID: 460746768, guid: 276bb2fa3d872b6418609de58977eb0b, type: 3}
       propertyPath: player
       value: 
@@ -8341,6 +8341,22 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6913275767946567747, guid: 3034ac2685138cd4487bc8586e2a9c09, type: 3}
   m_PrefabInstance: {fileID: 6913275766745919161}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2127310620 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6913275767946567746, guid: 3034ac2685138cd4487bc8586e2a9c09, type: 3}
+  m_PrefabInstance: {fileID: 6913275766745919161}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2127310617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4932fd966aa2424c8734b845bcf159e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!120 &2127310621 stripped
+LineRenderer:
+  m_CorrespondingSourceObject: {fileID: 6913275767946567749, guid: 3034ac2685138cd4487bc8586e2a9c09, type: 3}
+  m_PrefabInstance: {fileID: 6913275766745919161}
+  m_PrefabAsset: {fileID: 0}
 --- !u!50 &2127310623 stripped
 Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 6913275767946568121, guid: 3034ac2685138cd4487bc8586e2a9c09, type: 3}
@@ -8834,6 +8850,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6913275767946567750, guid: 3034ac2685138cd4487bc8586e2a9c09, type: 3}
+      propertyPath: tLine
+      value: 
+      objectReference: {fileID: 2127310620}
     - target: {fileID: 6913275767946567750, guid: 3034ac2685138cd4487bc8586e2a9c09, type: 3}
       propertyPath: pointer
       value: 
