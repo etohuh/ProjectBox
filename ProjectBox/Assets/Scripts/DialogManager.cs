@@ -58,20 +58,25 @@ public class DialogManager : MonoBehaviour
 
     public void EndDialog() {
 
-        if (nextLevelIndex != 0)
-        {
-            lLoader.LoadLevelWithTransition(nextLevelIndex);
-            return;
-        }
+        
         
         if (!waitForAnimation)
         {
+            if (nextLevelIndex != 0)
+            {
+                lLoader.LoadLevelWithTransition(nextLevelIndex);
+                return;
+            }
             lLoader.LoadLevelWithTransition();
         }
+        
 
         if (GameObject.Find("WOBBLE") != null)
         {
             GameObject.Find("WOBBLE").GetComponent<WobbleCharacters>().startWobble = true;
+        }else if (GameObject.Find("TELEPORT") != null)
+        {
+            GameObject.Find("TELEPORT").GetComponent<DialogTeleport>().TeleportPlayer();
         }
         waitForAnimation = false;
     }
