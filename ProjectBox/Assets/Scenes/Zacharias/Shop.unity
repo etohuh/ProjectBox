@@ -4298,6 +4298,10 @@ PrefabInstance:
       propertyPath: avatarSprite
       value: 
       objectReference: {fileID: 2098287159}
+    - target: {fileID: 2053953503, guid: f921594e35198ce4381eddb5d8db2652, type: 3}
+      propertyPath: isSkinUnlocked
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5386390390990038253, guid: f921594e35198ce4381eddb5d8db2652, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
