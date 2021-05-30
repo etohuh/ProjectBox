@@ -62,7 +62,7 @@ public class SkinInShop : MonoBehaviour
             else
             {
                 NoMoneyAnim.SetTrigger("NoMoney");
-                Debug.Log("You don't have enough money!");
+                //Debug.Log("You don't have enough money!");
             }
         }
     }

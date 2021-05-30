@@ -8765,7 +8765,7 @@ PrefabInstance:
       objectReference: {fileID: 534670972}
     - target: {fileID: 2096808803, guid: a41321ff4a183e0478aa8618312d4174, type: 3}
       propertyPath: coinThreeStar
-      value: 50
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 2096808803, guid: a41321ff4a183e0478aa8618312d4174, type: 3}
       propertyPath: currencyShade
