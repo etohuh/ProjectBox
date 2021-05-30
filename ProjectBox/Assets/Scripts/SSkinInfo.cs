@@ -5,7 +5,7 @@ using UnityEngine;
 [System.Serializable, CreateAssetMenu(fileName ="New Skin", menuName ="Create New Skin")]
 public class SSkinInfo : ScriptableObject
 {
-    public enum SkinIDs {pink, green, blue, dice, knots, panda, test}
+    public enum SkinIDs {pink, green, blue, dice, knots, panda, jackOLantern}
     public SkinIDs skinID;
 
     public Sprite skinSprite;
