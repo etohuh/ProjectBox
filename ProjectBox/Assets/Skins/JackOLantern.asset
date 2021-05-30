@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dd890c6768303641a4e2c5056d62862, type: 3}
   m_Name: JackOLantern
   m_EditorClassIdentifier: 
-  skinID: 0
-  skinSprite: {fileID: 0}
-  skinPrice: 0
+  skinID: 6
+  skinSprite: {fileID: 21300000, guid: b3198094ce6af224fba84dbc4c801e12, type: 3}
+  skinPrice: 300
