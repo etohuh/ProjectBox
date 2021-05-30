@@ -1728,7 +1728,7 @@ PrefabInstance:
       objectReference: {fileID: 393624958}
     - target: {fileID: 2096808803, guid: a41321ff4a183e0478aa8618312d4174, type: 3}
       propertyPath: afterGold
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2096808803, guid: a41321ff4a183e0478aa8618312d4174, type: 3}
       propertyPath: coinOneStar

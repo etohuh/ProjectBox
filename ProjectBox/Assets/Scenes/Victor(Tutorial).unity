@@ -361,7 +361,6 @@ MonoBehaviour:
   recordTextLevel5: {fileID: 0}
   recordTextLevel6: {fileID: 0}
   levelSelect: {fileID: 0}
-  deathUI: {fileID: 0}
 --- !u!114 &39232954 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1644862972, guid: 211c89b996db02340acadb32574657bf, type: 3}
@@ -17862,7 +17861,7 @@ PrefabInstance:
       objectReference: {fileID: 2111341327}
     - target: {fileID: 3914918153894183172, guid: a41321ff4a183e0478aa8618312d4174, type: 3}
       propertyPath: coinThreeStar
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3914918153894183172, guid: a41321ff4a183e0478aa8618312d4174, type: 3}
       propertyPath: currencyShade
