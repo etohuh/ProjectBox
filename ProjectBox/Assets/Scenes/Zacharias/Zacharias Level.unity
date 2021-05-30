@@ -5476,7 +5476,7 @@ PrefabInstance:
     - target: {fileID: 460746768, guid: 276bb2fa3d872b6418609de58977eb0b, type: 3}
       propertyPath: lr
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2127310621}
     - target: {fileID: 460746768, guid: 276bb2fa3d872b6418609de58977eb0b, type: 3}
       propertyPath: player
       value: 
@@ -8371,6 +8371,11 @@ SpriteRenderer:
 --- !u!1 &2127310617 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6913275767946567747, guid: 3034ac2685138cd4487bc8586e2a9c09, type: 3}
+  m_PrefabInstance: {fileID: 6913275766745919161}
+  m_PrefabAsset: {fileID: 0}
+--- !u!120 &2127310621 stripped
+LineRenderer:
+  m_CorrespondingSourceObject: {fileID: 6913275767946567749, guid: 3034ac2685138cd4487bc8586e2a9c09, type: 3}
   m_PrefabInstance: {fileID: 6913275766745919161}
   m_PrefabAsset: {fileID: 0}
 --- !u!50 &2127310623 stripped
