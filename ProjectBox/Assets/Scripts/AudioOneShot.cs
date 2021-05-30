@@ -19,6 +19,7 @@ public class AudioOneShot : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             audioSource.Play();
-        }       
+        }
+        
     }
 }
