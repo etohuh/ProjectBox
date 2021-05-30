@@ -6,39 +6,39 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/LEVELSFORBUILD/Ivan_mainmenu.unity
+    path: Assets/Scenes/Ivan_mainmenu.unity
     guid: 81e7eaa3c302dc34fb4ebfa8ee876286
   - enabled: 1
-    path: Assets/Scenes/LEVELSFORBUILD/Victor(Tutorial).unity
+    path: Assets/Scenes/Victor(Tutorial).unity
     guid: 4fa6ae62d49fd5146a6a779a55066925
   - enabled: 1
-    path: Assets/Scenes/LEVELSFORBUILD/MarcusLevel2.unity
+    path: Assets/Scenes/MarcusLevel2.unity
     guid: c2e59788dc75cde48a74588b90f6e75a
   - enabled: 1
-    path: Assets/Scenes/LEVELSFORBUILD/GregoryEASY.unity
+    path: Assets/Scenes/Gregory/GregoryEASY.unity
     guid: 28cfbe311ea14b344b72551674fbc803
   - enabled: 1
-    path: Assets/Scenes/LEVELSFORBUILD/GregoryMEDIUM.unity
+    path: Assets/Scenes/Gregory/GregoryMEDIUM.unity
     guid: 23434ba608f90464988ea0a866dbcac9
   - enabled: 1
-    path: Assets/Scenes/LEVELSFORBUILD/Zacharias Level.unity
+    path: Assets/Scenes/Zacharias/Zacharias Level.unity
     guid: b25a89442a1a65646b180b56c315aa23
   - enabled: 1
-    path: Assets/Scenes/LEVELSFORBUILD/GregoryHARD.unity
+    path: Assets/Scenes/Gregory/GregoryHARD.unity
     guid: 8b1760af50544b84dbe299543a05ff47
   - enabled: 1
     path: Assets/Scenes/SplashScreen.unity
     guid: 8dd1c74c5874b51439559c49f84b18e5
   - enabled: 1
-    path: Assets/Scenes/LEVELSFORBUILD/Dialog1.unity
+    path: Assets/Scenes/Dialog/Dialog1.unity
     guid: 18713b7d6ced5c04292347e3052b50ef
   - enabled: 1
-    path: Assets/Scenes/LEVELSFORBUILD/Dialog2.unity
+    path: Assets/Scenes/Dialog/Dialog2.unity
     guid: 7a924ee95e8f86241ac7a67b551005af
   - enabled: 1
-    path: Assets/Scenes/LEVELSFORBUILD/Dialog3.unity
+    path: Assets/Scenes/Dialog/Dialog3.unity
     guid: 18f32695c7d8e3d4faed601f0ccd3a25
   - enabled: 1
-    path: Assets/Scenes/LEVELSFORBUILD/Shop.unity
+    path: Assets/Scenes/Zacharias/Shop.unity
     guid: d45ab14798191424e864063fac4a5306
   m_configObjects: {}
