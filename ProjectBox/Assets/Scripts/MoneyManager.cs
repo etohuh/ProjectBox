@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class MoneyManager : MonoBehaviour
 {
-    [SerializeField] Text moneyText;
+    [SerializeField] TextMeshProUGUI moneyText;
     // Start is called before the first frame update
     void Start()
     {
